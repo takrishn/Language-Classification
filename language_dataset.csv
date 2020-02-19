@@ -355,7 +355,7 @@ heard,English
 best,English
 hour,English
 better,English
-true,English
+TRUE,English
 hundred,English
 five,English
 remember,English
@@ -4677,7 +4677,8 @@ Minza bar,Simlish
 Really,Simlish
 Va,Simlish
 Fa,Simlish
-"Ninap, Tinap",Simlish
+Ninap,Simlish
+Tinap,Simlish
 Tinip,Simlish
 Ka,Simlish
 Hap,Simlish
@@ -5054,7 +5055,9 @@ lepero,Tolkien Elvish
 lepetā,Tolkien Elvish
 lepethron,Tolkien Elvish
 le tulir,Tolkien Elvish
-"lḗ tuli, tuli lḗ, āle tuli",Tolkien Elvish
+lḗ tuli ,Tolkien Elvish
+āle tuli,Tolkien Elvish
+tuli lḗ,Tolkien Elvish
 lĭmbĭ,Tolkien Elvish
 limi,Tolkien Elvish
 lindā,Tolkien Elvish
@@ -5376,7 +5379,9 @@ sawā,Tolkien Elvish
 se,Tolkien Elvish
 sedu-,Tolkien Elvish
 -se-sē̆,Tolkien Elvish
-"sē tuli, tuli sḗ, āse tuli",Tolkien Elvish
+sē tuli,Tolkien Elvish
+tuli sḗ,Tolkien Elvish
+āse tuli,Tolkien Elvish
 sī,Tolkien Elvish
 sidā̆,Tolkien Elvish
 silimā,Tolkien Elvish
