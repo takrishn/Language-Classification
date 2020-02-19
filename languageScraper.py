@@ -29,7 +29,7 @@ def extractElvish() -> dict:
         if elvish: elvish = elvish.group(1)
         if english: english = english.group(1)
 
-        elvish_dict[str(elvish)] = str(english)
+        elvish_dict[str(elvish).strip('!')] = str(english)
     
     return elvish_dict
 
@@ -42,8 +42,7 @@ def extractWords(lang_name: str, lang_sites: dict) -> list:
     if (url != lang_sites["English"]):
         nonEnglish = True
         alternate = True
-    page = requests.get(url)
-    soup = BeautifulSoup(page.text, 'html.parser')
+    soup = makeSoup(url)
     corpus = soup.find_all('td')
     result = []
 
@@ -117,7 +116,7 @@ def removeFictionalStopWords(lang_dict: dict) -> dict:
     language, english = list(lang_dict.keys()), list(lang_dict.values())
 
     for i, word in enumerate(english):
-        if word not in stop_words:
+        if word.lower() not in stop_words:
             filtered_dict[language[i]] = english[i]
     
     return filtered_dict
@@ -130,7 +129,7 @@ def removeStopWords(lang_name: str, word_list: list) -> list:
     stop_words = set(stopwords.words(lang_name.lower()))
     
     for i, word in enumerate(word_list):
-        if word not in stop_words:
+        if word.lower() not in stop_words:
             filtered_words.append(word)
     
     return filtered_words
@@ -148,7 +147,7 @@ def writeToCSV(lang_name: str, word_list:list, csv_file_path:str) -> None:
         if mode == 'wb': writer.writerow(['Word', 'Language'])
 
         for word in word_list:
-            writer.writerow([word, lang_name])
+            writer.writerow([word.strip(','), lang_name])
 
 def main():
     dataset_path = 'language_dataset.csv'
