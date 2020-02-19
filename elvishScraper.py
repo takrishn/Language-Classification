@@ -1,5 +1,8 @@
 import requests
 import re
+import csv
+import os
+import unicodecsv as csv
 from bs4 import BeautifulSoup
 from nltk.corpus import stopwords 
 from nltk.tokenize import word_tokenize 
@@ -46,11 +49,29 @@ def removeStopWords(lang_dict: dict) -> dict:
     
     return filtered_dict
 
+def writeToCSV(lang_name: str, word_list:list, csv_file_path:str) -> None:
+    """given language name and list of words from that language, create
+    csv with 'Word' and 'Language' as headers; else add word/language
+    entries to existing csv"""
+
+    mode = 'wb'
+    if os.path.exists(csv_file_path): mode = 'ab'
+
+    with open(csv_file_path, mode) as csvfile:
+        writer = csv.writer(csvfile, delimiter=',', encoding='utf-8')
+        if mode == 'wb': writer.writerow(['Word', 'Language'])
+
+        for word in word_list:
+            writer.writerow([word, lang_name])
+
 def main():
     elvish_dict = scrapeElvish()
     print('Number of Elvish words:', len(elvish_dict), '\n')
+
     filtered_elvish_dict = removeStopWords(elvish_dict)
     print('\nNumber of Elvish words after removing stop words:', len(filtered_elvish_dict))
+
+    writeToCSV('Tolkien Elvish', list(filtered_elvish_dict.keys()), 'language_dataset.csv')
 
 
 if __name__ == '__main__':
