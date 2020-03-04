@@ -1,36 +1,3 @@
-# ---------------------------------------------------------------------------------------
-# CS 175, WINTER 2020: ASSIGNMENT 2
-#
-# The goal of this assignment is to give you some practice with building neural networks 
-# using PyTorch, including preparing data, creating a neural network and training the 
-# network.
-#
-# You should have PyTorch installed on top of Python 3.7 before starting this assignment. 
-# PyTorch can be installed by using the command line. The specific command depends on 
-# the platform and which installation tool (Anaconda or Pip) you want to use.
-# Please refer to https://pytorch.org/get-started/locally/ for details.
-#
-# General notes
-#	- do not remove any code that is already provided: add your own code where appropriate
-#	- add comments inline in the text to explain what you are doing
-#	- feel free to add error checking if you wish (but we will not grade you on this)
-#	- submit a copy of your edited version of this file, as Assignment2.py
-#   - be sure to test your code on some simple examples before you submit it
-#
-# Grading
-#   - The point of each problem is as marked
-#   - points will be deducted if
-# 		- the code does not execute
-#       - the code does not return the correct answers on simple test cases,
-#		- if the code is not general and only works on special cases,
-#		- if there are very few or no comments.
-#
-# Submission
-#	- your edited copy of assignment2.py
-#	- a text file called assignment2.txt with the output from run_assignment2.py
-#	- submit both files to Canvas
-# ---------------------------------------------------------------------------------------
-
 from __future__ import unicode_literals, print_function, division
 from io import open
 import glob
@@ -43,33 +10,10 @@ import torch.nn as nn
 import torchvision
 import torchvision.transforms as transforms
 from matplotlib import pyplot as plt
-
-
-# -----------------------------------------------------------------------------------------
-# PROBLEM 1 PyTorch Basics (15 points)
-#
-# PROBLEM 1.1 (5 Points) Create a 2x3x5 PyTorch tensor of all odd numbers from 1 to 59 
-# (i.e. [[[1,3,5,7,9],[11,13,15,17,19],[...] ], [[...],[...],[...]] ]
-def create_odd_nums():
-	# Create the list of odd numbers from 1 to 59
-	odds = list(range(1,60,2))
-	# Construct the tensor through the list odds by reshaping
-	odds_tensor = torch.IntTensor(odds).view(2, 3, 5)
-	print('The created tensor size is %s' % str(odds_tensor.size()))
-	print(odds_tensor)
-	return odds_tensor
-
-
-# PROBLEM 1.2 (10 points) Use the autograd scheme in PyTorch to compute the gradient of 
-# the sigmoid function (y=1/(1+exp(-x))) when x = 0
-def compute_sigmod_grad(v):
-	x = torch.tensor(float(v), requires_grad=True)
-	y = 1/(1+torch.exp(-x))
-	y.backward()
-
-	print(x.grad)
-	return x.grad
-
+import unicodedata
+import string
+import pandas as pd
+from collections import defaultdict
 
 # ------------------------------------------------------------------------------------------
 # PROBLEM 2 Simple Feedforward Neural network
@@ -202,8 +146,7 @@ def findFiles(path): return glob.glob(path)
 
 print(findFiles('data/names/*.txt'))
 
-import unicodedata
-import string
+
 
 all_letters = string.ascii_letters + " .,;'"
 n_letters = len(all_letters)
@@ -237,6 +180,33 @@ for filename in findFiles('data/names/*.txt'):
 	all_categories.append(category)
 	lines = readLines(filename)
 	category_lines[category] = lines
+
+# print('category lines')
+# print(category_lines)
+# print('all categories')
+# print(all_categories)
+
+def parseCSV(file):
+    data = pd.read_csv(file)
+    return data
+
+csv_data = parseCSV("language_dataset.csv").to_dict('split')['data']
+category_lines = defaultdict(list)
+for entry in csv_data:
+    category_lines[entry[1]].append(entry[0])
+
+all_categories = list(category_lines.keys())
+n_categories = len(all_categories)
+
+print("-----Our Categories-----")
+print(all_categories)
+print('----category lines----')
+print(category_lines)
+print('----n_categories-----')
+print(n_categories)
+# category lines
+# {'Japanese':['Abe', 'Abukara']}
+
 
 n_categories = len(all_categories)
 
@@ -378,7 +348,7 @@ def train_charRNN(n_iters, learning_rate):
 
 # Problem 3.3 (15 points) Finish the prediction function to provide predictions for any 
 # input string (name) from the user
-def predict(input_line, n_predictions=8):
+def predict(input_line, n_predictions=7):
 	print("Prediction for %s:" % input_line)
 	hidden = rnn.initHidden()
 
@@ -404,15 +374,11 @@ def predict(input_line, n_predictions=8):
 	return predictions
 
 if __name__ == "__main__":
-	print("\nProblem 1.1")
-	create_odd_nums()
-	print("\nProblem 1.2")
-	compute_sigmod_grad(0)
-
 	print("Problem 2")
 	train_and_test_simple_net(28 * 28, 200, 10)
 
 	print("\nProblem 3")
 	train_charRNN(15000, 0.005)
-	predict("Hanzawa")
-	predict("Jackson")
+	predict("Hallo")
+	predict("Hello")
+	predict("Hola")
