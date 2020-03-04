@@ -57,7 +57,7 @@ def run_bayes():
 	# df.groupby('Product').Consumer_Complaint.count().plot.bar(ylim=0)
 	# plt.show()
 
-	train, test = train_test_split(df, random_state = 0, test_size=.25)
+	train, test = train_test_split(df, random_state = 1, test_size=.25)
 
 	tfidf = TfidfVectorizer(sublinear_tf=True, min_df=5, norm='l2', encoding='utf-8', ngram_range=(1, 1))
 	features = tfidf.fit_transform(train.Word).toarray()
@@ -305,4 +305,4 @@ if __name__ == '__main__':
 	print('MULTINOMIAL NAIVE BAYES!!!')
 	run_bayes()
 	print('LOGISTIC REGRESSION!!!')
-	run_logistic()
+	#run_logistic()
