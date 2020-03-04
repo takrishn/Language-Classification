@@ -6,8 +6,6 @@ from nltk.probability import FreqDist #imported to avoid error
 
 import json
 import sklearn
-from sklearn.feature_extraction.text import * 
-from sklearn.model_selection import train_test_split 
 
 from sklearn import linear_model 
 from sklearn import metrics 
@@ -21,13 +19,17 @@ from io import StringIO
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_selection import chi2
-
+from sklearn.feature_extraction.text import * 
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.naive_bayes import MultinomialNB
 
 def run_bayes():
+	"""
+	Multinomial Bayes Classifier
+	https://towardsdatascience.com/multi-class-text-classification-with-scikit-learn-12f1e60e0a9f
+	"""
 	df = pd.read_csv('language_dataset.csv')
 
 	# Remove Missing values
@@ -39,7 +41,6 @@ def run_bayes():
 	df['category_id'] = df['Word'].factorize()[0]
 	category_id_df = df[['Word', 'category_id']].drop_duplicates().sort_values('category_id')
 	category_to_id = dict(category_id_df.values)
-	id_to_category = dict(category_id_df[['category_id', 'Word']].values)
 	df.head()
 
 	## plot to flex
@@ -47,24 +48,20 @@ def run_bayes():
 	# df.groupby('Product').Consumer_Complaint.count().plot.bar(ylim=0)
 	# plt.show()
 
+	# split the training and test data
 	train, test = train_test_split(df, random_state = 0, test_size=.25)
-
 	tfidf = TfidfVectorizer(sublinear_tf=True, min_df=5, norm='l2', encoding='utf-8', ngram_range=(1, 1))
 	features = tfidf.fit_transform(train.Word).toarray()
 	labels = train.category_id
 	features.shape
 
 	# Use 'sklearn.feature_selection.chi2' to find the terms that are the most correlated with each of the products
-	N = 2
 	for Language, category_id in sorted(category_to_id.items()):
 		features_chi2 = chi2(features, labels == category_id)
 		indices = np.argsort(features_chi2[0])
 		feature_names = np.array(tfidf.get_feature_names())[indices]
 		unigrams = [v for v in feature_names if len(v.split(' ')) == 1]
 		bigrams = [v for v in feature_names if len(v.split(' ')) == 2]
-		#   print("--> '{}':".format(Language))
-		#   print("  . Most Correlated Unigrams are :\n. {}".format('\n. '.join(unigrams[-N:])))
-		#   print("  . Most Correlated Bigrams are :\n. {}".format('\n. '.join(bigrams[-N:])))
 
 	# build the model
 	X_train = train['Word']
@@ -74,7 +71,6 @@ def run_bayes():
 	tfidf_transformer = TfidfTransformer()
 	X_train_tfidf = tfidf_transformer.fit_transform(X_train_counts)
 	clf = MultinomialNB().fit(X_train_tfidf, Y_train)
-
 
 	# calculate accuracy
 	correct_predictions = 0
@@ -87,12 +83,12 @@ def run_bayes():
 		if correct == 'O':  
 			correct_predictions += 1
 	print('Accuracy: {}%'.format(correct_predictions / len(test.index) * 100))
-
 	print(clf.predict(count_vect.transform(["event"])))
 
 
 
 def run_logistic():
+
 	def create_bow_from_json(f):
 		def parseCSV(f):
 			data = pd.read_csv(f)
