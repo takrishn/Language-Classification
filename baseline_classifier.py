@@ -28,16 +28,6 @@ from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.naive_bayes import MultinomialNB
 
 def run_bayes():
-	classification_mapping = {
-		"English": 0, 
-		"Spanish": 1, 
-		"German": 2,
-		"Italian": 3,
-		"French": 4,
-		"Simlish": 5,
-		"Tolkien Elvish": 6
-	}
-
 	df = pd.read_csv('language_dataset.csv')
 
 	# Remove Missing values
@@ -76,6 +66,7 @@ def run_bayes():
 		#   print("  . Most Correlated Unigrams are :\n. {}".format('\n. '.join(unigrams[-N:])))
 		#   print("  . Most Correlated Bigrams are :\n. {}".format('\n. '.join(bigrams[-N:])))
 
+	# build the model
 	X_train = train['Word']
 	Y_train = train['Language']
 	count_vect = CountVectorizer()
@@ -85,6 +76,7 @@ def run_bayes():
 	clf = MultinomialNB().fit(X_train_tfidf, Y_train)
 
 
+	# calculate accuracy
 	correct_predictions = 0
 	for ind in test.index:
 		prediction = clf.predict(count_vect.transform([test['Word'][ind]]))[0]
@@ -101,28 +93,6 @@ def run_bayes():
 
 
 def run_logistic():
-	# ---------------------------------------------------------------------------------------
-	# PROBLEM 4
-	# Create a bag of words (BOW) representation from text documents, using the Vectorizer function in scikit-learn
-	#
-	# The inputs are 
-	#  - a filename (you will use "yelp_reviews.json") containing the reviews in JSON format 
-	#  - the min_pos and max_neg parameters
-	#  - we label all reviews with scores > min_pos = 4 as "1"  
-	#  - we label all reviews with scores < max_neg = 2 as "0" 
-	#  - this creates a simple set of labels for binary classification, ignoring the neutral (score = 3) reviews
-	# 
-	#  The function extracts the text and scores for each review from the JSON data
-	#  It then tokenizes and creates a sparse bag-of-words array using scikit-learn vectorizer function
-	#  The number of rows in the array is the number of reviews with scores <=2 or >=4
-	#  The number of columns in the array is the number of terms in the vocabulary
-	#
-	#  NOTE: 
-	#  - please read the scikit-learn tutorial on text feature extraction before you start this problem:
-	#     https://scikit-learn.org/stable/modules/feature_extraction.html#text-feature-extraction  
-	#  - in this function we will use scikit-learn tokenization (rather than NLTK)
-	# ---------------------------------------------------------------------------------------
-
 	def create_bow_from_json(f):
 		def parseCSV(f):
 			data = pd.read_csv(f)
@@ -159,16 +129,7 @@ def run_logistic():
 		
 		return X, Y, vectorizer
 			
-	# ---------------------------------------------------------------------------------------
-	# PROBLEM 5
-	#  Separate an X,Y dataset (X=features, Y=labels) into training and test subsets
-	#  Build a logistic classifier on the training subset
-	#  Evaluate performance on the test subset  
-	#
-	#  NOTE: before starting this problem please read the scikit-learn documentation on logistic classifiers:
-	#		https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-	# https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html#sklearn.linear_model.LogisticRegression
-	# ---------------------------------------------------------------------------------------		 
+	 
 	def logistic_classification(X, Y, test_fraction): 
 		# should add comments defining what the inputs are what the function does
 		"""
@@ -207,6 +168,8 @@ def run_logistic():
 		test_predictions = classifier.predict(X_test)	 
 		test_accuracy = metrics.accuracy_score(test_predictions, Y_test)
 		print(' accuracy:', format( 100*test_accuracy , '.2f') )
+
+
 		
 		# probabilities for class 1
 		class_probabilities = classifier.predict_proba(X_test)[:,1]
@@ -253,56 +216,72 @@ def run_logistic():
 	
 	# get the weights of the terms; [0] is there to extract the inner list that
 		# actually holds the weight values
-		weights = classifier.coef_[0]
+
 
 		# get the top K positive indices ([::-1] to sort in descending order)
-		topK_pos_indices = weights.argsort()[-K:][::-1]
+		# topK_pos_indices = weights.argsort()[-K:][::-1]
 
-		# get the top K negative indices (largest negative value first)
-		topK_neg_indices = weights.argsort()[:K]
+		# # get the top K negative indices (largest negative value first)
+		# topK_neg_indices = weights.argsort()[:K]
 
-		topK_pos_weights = []
-		topK_neg_weights = []
-
-		topK_pos_terms = []
-		topK_neg_terms = []
+		topK_mapping = {
+			"English": [[], classifier.coef_[0].argsort()[-K:][::-1]], 
+			"Spanish": [[], classifier.coef_[1].argsort()[-K:][::-1]], 
+			"German": [[], classifier.coef_[2].argsort()[-K:][::-1]],
+			"Italian": [[], classifier.coef_[3].argsort()[-K:][::-1]],
+			"French": [[], classifier.coef_[4].argsort()[-K:][::-1]],
+			"Simlish": [[], classifier.coef_[5].argsort()[-K:][::-1]],
+			"Tolkien Elvish": [[], classifier.coef_[6].argsort()[-K:][::-1]]
+		}
 
 		#print('Top K pos indices: ', topK_pos_indices)
 		#print('Top K neg indices: ', topK_neg_indices)
 
-		# print the top K terms and weights, and append them to respective lists
-		print('\nTop', K, 'Positive Terms:')
-		for i in topK_pos_indices:
-			print('Term: ', vocabulary[i], '\t\tWeight: ', format(weights[i] , '.3f'))
-			topK_pos_weights.append(weights[i])
-			topK_pos_terms.append(vocabulary[i])
+		for key, value in topK_mapping.items():
+			print('\nTop', K, key, 'Terms:')
+			for i in value[1]:
+				print('Term: ', vocabulary[i])
+				value[0].append(vocabulary[i])
 
-		print('\n Top', K, 'Negative Terms:')
-		for i in topK_neg_indices:
-			print('Term: ', vocabulary[i], '\t\tWeight: ', format(weights[i] , '.3f'))
-			topK_neg_weights.append(weights[i])
-			topK_neg_terms.append(vocabulary[i])
+		# # print the top K terms and weights, and append them to respective lists
+		# print('\nTop', K, 'Positive Terms:')
+		# for i in topK_pos_indices:
+		# 	print('Term: ', vocabulary[i], '\t\tWeight: ', format(weights[i] , '.3f'))
+		# 	topK_pos_weights.append(weights[i])
+		# 	topK_pos_terms.append(vocabulary[i])
+
+		# print('\n Top', K, 'Negative Terms:')
+		# for i in topK_neg_indices:
+		# 	print('Term: ', vocabulary[i], '\t\tWeight: ', format(weights[i] , '.3f'))
+		# 	topK_neg_weights.append(weights[i])
+		# 	topK_neg_terms.append(vocabulary[i])
 		
-		return(topK_pos_weights, topK_neg_weights, topK_pos_terms, topK_neg_terms)
+		return(topK_mapping)
 			
 	print('\n-----PROBLEM 4-----')
 	# read in our datafile and tokenize the text for each catagory
-	X, Y , vectorizer_BOW = create_bow_from_json("language_dataset.csv")  
+	X, Y , vectorizer_BOW = create_bow_from_json("language_dataset.csv") 
+
+	# new_words = ['event']
+	# language = ['English']
+	# vectorizer = CountVectorizer()
+	# vectorized_words = vectorizer.fit_transform(new_words)
 
 	print('\n-----PROBLEM 5-----')
 	# run a logistic classifier on the reviews, specifying the fraction to be used for testing  
-	test_fraction = 0.5
-	logistic_classifier = logistic_classification(X, Y,test_fraction)  
+	# test_fraction = 0.5
+	# logistic_classifier = logistic_classification(X, Y,test_fraction, new_words, language, vectorized_words)  
 
-	#test_fraction = 0.8
-	#logistic_classifier = logistic_classification(X, Y,test_fraction)  
+
+	test_fraction = 0.2
+	logistic_classifier = logistic_classification(X, Y,test_fraction)  
 	
 	print('\n-----PROBLEM 6-----')
 	# print out and return the most significant positive and negative weights (and associated terms) 
-	most_significant_terms(logistic_classifier, vectorizer_BOW, K=10)
+	# most_significant_terms(logistic_classifier, vectorizer_BOW, K=10)
 
 if __name__ == '__main__':
-	print('MULTINOMIAL NAIVE BAYES!!!')
-	run_bayes()
+	# print('MULTINOMIAL NAIVE BAYES!!!')
+	# run_bayes()
 	print('LOGISTIC REGRESSION!!!')
 	#run_logistic()
