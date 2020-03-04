@@ -15,20 +15,6 @@ import string
 import pandas as pd
 from collections import defaultdict
 
-# ------------------------------------------------------------------------------------------
-# PROBLEM 2 Simple Feedforward Neural network
-# In this problem, you will be working with the MNIST dataset. The MNIST database 
-# (Modified National Institute of Standards and Technology database, 
-# https://en.wikipedia.org/wiki/MNIST_database) is a large database of handwritten digits.
-# Each image in the dataset is a 28*28 matrix and represents the pixel values for a 
-# handwritten digit. The task is to train a simple fully-connected neural network with 
-# one hidden layer and one Softmax layer between hidden layer and output.
-# The goal is to help you understand the basics of defining a neural network architcture
-# and then training it.
-#
-# Hint: You may find it helpful to refer to this tutorial 
-# https://github.com/yunjey/pytorch-tutorial to help you with this problem.
-
 # Device configuration
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -53,7 +39,7 @@ test_loader = torch.utils.data.DataLoader(dataset=test_dataset,
 										  shuffle=False)
 
 
-# PROBLEM 2.1 (20 points) Create a simple neural network with just one hidden layer 
+# Create a simple neural network with just one hidden layer 
 # and one Softmax layer between hidden layer and output.
 class SimpleNeuralNet(nn.Module):
 
@@ -131,60 +117,12 @@ def train_and_test_simple_net(input_size, hidden_size, num_classes):
 			correct += (predicted == labels).sum().item()
 		print('Accuracy of the network on the 10000 test images: {} %'.format(100 * correct / total))
 
-
-# Problem 3
-# In this problem, we will be working on classifying names with a character-level RNN. 
-# The details of this task are described at
-# https://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html
-# The data folder contains the dataset (names from different languages) that is 
-# required for this problem.
-# -----------------
-# Data preparation
-
-def findFiles(path): return glob.glob(path)
-
-
-print(findFiles('data/names/*.txt'))
-
-
-
 all_letters = string.ascii_letters + " .,;'"
 n_letters = len(all_letters)
-
-
-# Turn a Unicode string to plain ASCII, 
-# thanks to https://stackoverflow.com/a/518232/2809427
-def unicodeToAscii(s):
-	return ''.join(
-		c for c in unicodedata.normalize('NFD', s)
-		if unicodedata.category(c) != 'Mn'
-		and c in all_letters
-	)
-
-
-print(unicodeToAscii('Ślusàrski'))
 
 # Build the category_lines dictionary, a list of names per language
 category_lines = {}
 all_categories = []
-
-
-# Read a file and split into lines
-def readLines(filename):
-	lines = open(filename, encoding='utf-8').read().strip().split('\n')
-	return [unicodeToAscii(line) for line in lines]
-
-
-for filename in findFiles('data/names/*.txt'):
-	category = os.path.splitext(os.path.basename(filename))[0]
-	all_categories.append(category)
-	lines = readLines(filename)
-	category_lines[category] = lines
-
-# print('category lines')
-# print(category_lines)
-# print('all categories')
-# print(all_categories)
 
 def parseCSV(file):
     data = pd.read_csv(file)
@@ -198,19 +136,15 @@ for entry in csv_data:
 all_categories = list(category_lines.keys())
 n_categories = len(all_categories)
 
-print("-----Our Categories-----")
-print(all_categories)
-print('----category lines----')
-print(category_lines)
-print('----n_categories-----')
-print(n_categories)
-# category lines
-# {'Japanese':['Abe', 'Abukara']}
+# print("-----Our Categories-----")
+# print(all_categories)
+# print('----category lines----')
+# print(category_lines)
+# print('----n_categories-----')
+# print(n_categories)
 
 
 n_categories = len(all_categories)
-
-# print(category_lines)
 
 # -----------------------
 # Turn names into tensors
@@ -251,14 +185,6 @@ def randomTrainingExample():
 	line_tensor = lineToTensor(line)
 	return category, line, category_tensor, line_tensor
 
-
-# PROBLEM 3.1 (20 points)  First, we need to create a recurrent neural network in Torch. 
-# At each time step of a RNN network, the input and the output of the hidden layer are 
-# combined. Refer to the PyTorch Tutorial 
-# https://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html
-# for the RNN structure and finish defining the following RNN model.
-# The number of RNN units depends on the length of the input string,
-# each character in a name corresponds to a time step.
 class RNN(nn.Module):
 	def __init__(self, input_size, hidden_size, output_size):
 		super(RNN, self).__init__()
@@ -286,15 +212,6 @@ class RNN(nn.Module):
 n_hidden = 128
 rnn = RNN(n_letters, n_hidden, n_categories)
 
-
-# PROBLEM 3.2 (15 points) Finish the training function of this RNN network.
-# Here the terminology is a bit different than Problem 2. The minibatch size used here
-# here is 1, i.e., samples are randomly selected one at a time, a (stochastic) 
-# gradient is computed and parameters are updated. (as defined in train_charRNN). 
-# This operation (i.e., gradient and parameter update based on one sample) corresponds
-# to a single "iteration" in the terminology below.
-# In the train_iteration_CharRNN, you need to complete the training process of each
-# iteration.
 def train_iteration_CharRNN(learning_rate, category_tensor, line_tensor):
 	criterion = nn.NLLLoss()
 	hidden = rnn.initHidden()
@@ -346,7 +263,7 @@ def train_charRNN(n_iters, learning_rate):
 	torch.save(rnn, 'char-rnn-classification.pt')
 
 
-# Problem 3.3 (15 points) Finish the prediction function to provide predictions for any 
+# Finish the prediction function to provide predictions for any 
 # input string (name) from the user
 def predict(input_line, n_predictions=7):
 	print("Prediction for %s:" % input_line)
@@ -365,7 +282,7 @@ def predict(input_line, n_predictions=7):
 	top_prob = softmax(topv)
 	predictions = []
  
-	for i in range(n_predictions):
+	for i in range(3):
 		value = topv[0][i]
 		prob = top_prob[0][i] * 100
 		category_index = topi[0][i]
@@ -379,6 +296,41 @@ if __name__ == "__main__":
 
 	print("\nProblem 3")
 	train_charRNN(15000, 0.005)
-	predict("Hallo")
-	predict("Hello")
-	predict("Hola")
+
+	csv_data = parseCSV("test_data.csv").to_dict('split')['data']
+	test_words = defaultdict(list)
+	for entry in csv_data:
+		test_words[entry[1]].append(entry[0])
+
+
+	print("Testing for English: ")
+	for i in test_words["English"]: 
+		predict(i)
+
+	print("Testing for Spanish: ")
+	for i in test_words["Spanish"]: 
+		predict(i)
+
+	print("Testing for German: ")
+	for i in test_words["German"]: 
+		predict(i)
+
+	print("Testing for Italian: ")
+	for i in test_words["Italian"]: 
+		predict(i)
+
+	print("Testing for French: ")
+	for i in test_words["French"]: 
+		predict(i)
+
+	print("Testing for Primitive Elvish: ")
+	for i in test_words["Primitive Elvish"]: 
+		predict(i)
+
+	print("Testing for Simlish: ")
+	for i in test_words["Simlish"]: 
+		predict(i)
+
+	print("Testing for Other: ")
+	for i in test_words["Other"]: 
+	 	predict(i)
