@@ -5,6 +5,7 @@ import sklearn
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, confusion_matrix
+from collections import defaultdict
 
 # Preprocessing
 import nltk
@@ -25,10 +26,9 @@ from IPython.display import SVG
 from keras.utils.vis_utils import model_to_dot
 
 from sklearn.model_selection import train_test_split
+import random
 
-# def parseCSV(file):
-#     data = pd.read_csv(file)
-#     return data
+random.seed(0)
 
 def get_raw_data():
     # Get file from http://archive.ics.uci.edu/ml/datasets/News+Aggregator
@@ -41,14 +41,37 @@ def get_raw_data():
     # Category: b = business, t = science and technology, e = entertainment, m = health
     return df[['category', 'headline']][:10]
 
-df = get_raw_data()
-df.head()
+#df = get_raw_data()
+#df.head()
 
-print('Number of news: %d' % (len(df)))
+#print('Number of news: %d' % (len(df)))
 
-train_df, test_df = train_test_split(df, test_size=0.2)
+#train_df, test_df = train_test_split(df, test_size=0.2)
 
 # ----- CharCNN Class -----
+
+def parseCSV(file):
+    data = pd.read_csv(file)
+    data = data.sample(100)
+    data['Index'] = np.arange(len(data))
+    return data[['Word', 'Language', "Index"]]
+
+csv_data = parseCSV("language_dataset.csv")#.to_dict('split')['data']
+
+df = csv_data
+df.head()
+train_df = df
+
+#train_df = df
+
+def parseCSV_testing(file):
+    data = pd.read_csv(file)
+    data['Index'] = np.arange(len(data))
+    return data[['Word', 'Language', "Index"]]
+
+csv_data = parseCSV_testing("test_data_v1.csv")#.to_dict('split')['data']
+test_df = csv_data
+print(test_df)
 
 class CharCNN:
     __author__ = "Edward Ma"
@@ -59,8 +82,8 @@ class CharCNN:
     __maintainer__ = "Edward Ma"
     __email__ = "makcedward@gmail.com"
     
-    CHAR_DICT =             'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .!?:,\'%-\(\)/$|&;[]"'
-    EXPANDED_CHAR_DICT =    'abcdefghijklmnopqrstuvwxyzáéíóúüñàèìòùçâêîôûëïäöß()-āēīōū’ā̆ē̆ī̆ō̆ăĭḗū́u̯ṇ̃þʒ¹²/\ :;"!?¿¡".'
+    #CHAR_DICT =             'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .!?:,\'%-\(\)/$|&;[]"'
+    CHAR_DICT =    'abcdefghijklmnopqrstuvwxyzáéíóúüñàèìòùçâêîôûëïäöß()-āēīōū’ā̆ē̆ī̆ō̆ăĭḗū́u̯ṇ̃þʒ¹²/\ :;"!?¿¡".'
     
     def __init__(self, max_len_of_sentence, max_num_of_setnence, verbose=10):
         self.max_len_of_sentence = max_len_of_sentence
@@ -115,6 +138,7 @@ class CharCNN:
             print('Index to Label: ', self.index2labels)
             
         self.num_of_label = len(self.label2indexes)
+        print("Number of Classes: ", self.num_of_label)
 
         return self.label2indexes, self.index2labels
     
@@ -177,7 +201,7 @@ class CharCNN:
     def _build_character_block(self, block, dropout=0.3, filters=[64, 100], kernel_size=[3, 3], 
                          pool_size=[2, 2], padding='valid', activation='relu', 
                          kernel_initializer='glorot_normal'):
-        
+        char_input = Input(shape=(10, ), dtype='int64')
         for i in range(len(filters)):
             block = Conv1D(
                 filters=filters[i], kernel_size=kernel_size[i],
@@ -188,48 +212,51 @@ class CharCNN:
 
         block = GlobalMaxPool1D()(block)
         block = Dense(128, activation='relu')(block)
-        return block
-    
-    def _build_sentence_block(self, max_len_of_sentence, max_num_of_setnence, 
-                              char_dimension=16,
-                              filters=[[3, 5, 7], [200, 300, 300], [300, 400, 400]], 
-#                               filters=[[100, 200, 200], [200, 300, 300], [300, 400, 400]], 
-                              kernel_sizes=[[4, 3, 3], [5, 3, 3], [6, 3, 3]], 
-                              pool_sizes=[[2, 2, 2], [2, 2, 2], [2, 2, 2]],
-                              dropout=0.4):
         
-        sent_input = Input(shape=(max_len_of_sentence, ), dtype='int64')
-        embedded = Embedding(self.num_of_char, char_dimension, input_length=max_len_of_sentence)(sent_input)
-        
-        blocks = []
-        for i, filter_layers in enumerate(filters):
-            blocks.append(
-                self._build_character_block(
-                    block=embedded, filters=filters[i], kernel_size=kernel_sizes[i], pool_size=pool_sizes[i])
-            )
-
-        sent_output = concatenate(blocks, axis=-1)
-        sent_output = Dropout(dropout)(sent_output)
-        sent_encoder = Model(inputs=sent_input, outputs=sent_output)
-
-        return sent_encoder
+        char_output = block
+        char_encoder = Model(inputs=char_input, outputs=char_output)
+        return char_encoder
     
-    def _build_document_block(self, sent_encoder, max_len_of_sentence, max_num_of_setnence, 
-                             num_of_label, dropout=0.3, 
-                             loss='sparse_categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy']):
-        doc_input = Input(shape=(max_num_of_setnence, max_len_of_sentence), dtype='int64')
-        doc_output = TimeDistributed(sent_encoder)(doc_input)
+#     def _build_sentence_block(self, max_len_of_sentence, max_num_of_setnence, 
+#                               char_dimension=16,
+#                               filters=[[3, 5, 7], [200, 300, 300], [300, 400, 400]], 
+# #                               filters=[[100, 200, 200], [200, 300, 300], [300, 400, 400]], 
+#                               kernel_sizes=[[4, 3, 3], [5, 3, 3], [6, 3, 3]], 
+#                               pool_sizes=[[2, 2, 2], [2, 2, 2], [2, 2, 2]],
+#                               dropout=0.4):
+        
+#         sent_input = Input(shape=(max_len_of_sentence, ), dtype='int64')
+#         embedded = Embedding(self.num_of_char, char_dimension, input_length=max_len_of_sentence)(sent_input)
+        
+#         blocks = []
+#         for i, filter_layers in enumerate(filters):
+#             blocks.append(
+#                 self._build_character_block(
+#                     block=embedded, filters=filters[i], kernel_size=kernel_sizes[i], pool_size=pool_sizes[i])
+#             )
 
-        doc_output = Bidirectional(LSTM(128, return_sequences=False, dropout=dropout))(doc_output)
+#         sent_output = concatenate(blocks, axis=-1)
+#         sent_output = Dropout(dropout)(sent_output)
+#         sent_encoder = Model(inputs=sent_input, outputs=sent_output)
 
-        doc_output = Dropout(dropout)(doc_output)
-        doc_output = Dense(128, activation='relu')(doc_output)
-        doc_output = Dropout(dropout)(doc_output)
-        doc_output = Dense(num_of_label, activation='sigmoid')(doc_output)
+#         return sent_encoder
+    
+    # def _build_document_block(self, sent_encoder, max_len_of_sentence, max_num_of_setnence, 
+    #                          num_of_label, dropout=0.3, 
+    #                          loss='sparse_categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy']):
+    #     doc_input = Input(shape=(max_num_of_setnence, max_len_of_sentence), dtype='int64')
+    #     doc_output = TimeDistributed(sent_encoder)(doc_input)
 
-        doc_encoder = Model(inputs=doc_input, outputs=doc_output)
-        doc_encoder.compile(loss=loss, optimizer=optimizer, metrics=metrics)
-        return doc_encoder
+    #     doc_output = Bidirectional(LSTM(128, return_sequences=False, dropout=dropout))(doc_output)
+
+    #     doc_output = Dropout(dropout)(doc_output)
+    #     doc_output = Dense(128, activation='relu')(doc_output)
+    #     doc_output = Dropout(dropout)(doc_output)
+    #     doc_output = Dense(num_of_label, activation='sigmoid')(doc_output)
+
+    #     doc_encoder = Model(inputs=doc_input, outputs=doc_output)
+    #     doc_encoder.compile(loss=loss, optimizer=optimizer, metrics=metrics)
+    #     return doc_encoder
     
     def preporcess(self, labels, char_dict=None, unknown_label='UNK'):
         if self.verbose > 3:
@@ -271,32 +298,39 @@ class CharCNN:
         if self.verbose > 3:
             print('-----> Stage: build model')
             
-        sent_encoder = self._build_sentence_block(
-            char_dimension=char_dimension,
-            max_len_of_sentence=self.max_len_of_sentence, max_num_of_setnence=self.max_num_of_setnence)
+        # sent_encoder = self._build_sentence_block(
+        #     char_dimension=char_dimension,
+        #     max_len_of_sentence=self.max_len_of_sentence, max_num_of_setnence=self.max_num_of_setnence)
                 
-        doc_encoder = self._build_document_block(
-            sent_encoder=sent_encoder, num_of_label=self.num_of_label,
-            max_len_of_sentence=self.max_len_of_sentence, max_num_of_setnence=self.max_num_of_setnence, 
-            loss=loss, optimizer=optimizer, metrics=metrics)
+        # doc_encoder = self._build_document_block(
+        #     sent_encoder=sent_encoder, num_of_label=self.num_of_label,
+        #     max_len_of_sentence=self.max_len_of_sentence, max_num_of_setnence=self.max_num_of_setnence, 
+        #     loss=loss, optimizer=optimizer, metrics=metrics)
         
+        sent_input = Input(shape=(10, ), dtype='int64')
+        embedded = Embedding(self.num_of_char, char_dimension, input_length=10)(sent_input)
+
+        char_encoder = self._build_character_block(embedded)
         if display_architecture:
-            print('Sentence Architecture')
-            IPython.display.display(SVG(model_to_dot(sent_encoder).create(prog='dot', format='svg')))
+            print('Character Architecture')
+            IPython.display.display(SVG(model_to_dot(char_encoder).create(prog='dot', format='svg')))
             print()
-            print('Document Architecture')
-            IPython.display.display(SVG(model_to_dot(doc_encoder).create(prog='dot', format='svg')))
+            # print('Sentence Architecture')
+            # IPython.display.display(SVG(model_to_dot(sent_encoder).create(prog='dot', format='svg')))
+            # print()
+            # print('Document Architecture')
+            # IPython.display.display(SVG(model_to_dot(doc_encoder).create(prog='dot', format='svg')))
         
         if display_summary:
-            print(doc_encoder.summary())
-            
+            print(char_encoder.summary())
         
         self.model = {
-            'sent_encoder': sent_encoder,
-            'doc_encoder': doc_encoder
+            # 'sent_encoder': sent_encoder,
+            # 'doc_encoder': doc_encoder
+            'char_encoder': char_encoder
         }
         
-        return doc_encoder
+        return char_encoder
     
     def train(self, x_train, y_train, x_test, y_test, batch_size=128, epochs=1, shuffle=True):
         if self.verbose > 3:
@@ -308,7 +342,7 @@ class CharCNN:
         
 #         return self.model['doc_encoder']
 
-    def predict(self, x, return_prob=True): #used to be false
+    def predict(self, x, return_prob=False): #used to be false
         print("PLEASE!")
         if self.verbose > 3:
             print('-----> Stage: predict')
@@ -316,19 +350,35 @@ class CharCNN:
         if return_prob:
             return self.get_model().predict(x)
         
-        return self.get_model().predict(x).argmax(axis=-1)
+        predict = self.get_model().predict(x)
+        predict_results = predict.argmax(axis=-1)
+        for i in range(len(predict_results)):
+            print("-------------------------------------------------")
+            index = test_df["Index"][i]
+            print(test_df["Word"][index])
+            print("Language: ", self.index2labels[predict_results[i]])
+            print("Probability: ", predict[i][predict_results[i]])
+            
+        return 
     
     def get_model(self):
-        return self.model['doc_encoder']
+        return self.model['char_encoder']
 
 char_cnn = CharCNN(max_len_of_sentence=256, max_num_of_setnence=5)
 
-char_cnn.preporcess(labels=df['category'].unique())
+#char_cnn.preporcess(labels=df['category'].unique())
+#print(type(df['category']))
+char_cnn.preporcess(labels=df['Language'].unique())
+
+# x_train, y_train = char_cnn.process(
+#     df=train_df, x_col='headline', y_col='category')
+# x_test, y_test = char_cnn.process(
+#     df=test_df, x_col='headline', y_col='category').
 
 x_train, y_train = char_cnn.process(
-    df=train_df, x_col='headline', y_col='category')
+    df=train_df, x_col='Word', y_col='Language')
 x_test, y_test = char_cnn.process(
-    df=test_df, x_col='headline', y_col='category')
+    df=test_df, x_col='Word', y_col='Language')
 
 print("x_test: ", x_test)
 print("y_test", y_test)
@@ -339,7 +389,8 @@ char_cnn.train(x_train, y_train, x_test, y_test, batch_size=200, epochs=10)
 char_cnn.get_model().save('./char_cnn_model.h5')
 
 char_cnn_model_loaded = load_model('./char_cnn_model.h5')
-print(char_cnn_model_loaded.predict(x_test))
+#print(char_cnn_model_loaded.predict(x_test)) #Keras model predict
+print(x_test)
 
 print("DUMB!")
-print(char_cnn.predict(x_test))
+print(char_cnn.predict(x_test)) #our predict
