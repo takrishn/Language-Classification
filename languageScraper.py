@@ -150,7 +150,7 @@ def writeToCSV(lang_name: str, word_list:list, csv_file_path:str) -> None:
             writer.writerow([word.strip(','), lang_name])
 
 def main():
-    dataset_path = 'language_dataset.csv'
+    dataset_path = 'language_dataset_no_stopwords.csv'
 
     lang_sites = {'English': 'https://1000mostcommonwords.com/1000-most-common-english-words/',
                 'Spanish':'https://1000mostcommonwords.com/1000-most-common-spanish-words/',
@@ -160,7 +160,7 @@ def main():
 
     for lang_name in lang_sites.keys():
         lang_words = extractWords(lang_name, lang_sites)
-        filtered_lang_words = removeStopWords(lang_name, lang_words)
+        filtered_lang_words = lang_words # removeStopWords(lang_name, lang_words)
         writeToCSV(lang_name, filtered_lang_words, dataset_path)
         print('{}: {}'.format(lang_name, len(filtered_lang_words)))
 
@@ -168,7 +168,7 @@ def main():
     writeToCSV('Simlish', simlish_words, dataset_path)
     print('Simlish:', len(simlish_words))
 
-    filtered_elvish_dict = removeFictionalStopWords(extractElvish())
+    filtered_elvish_dict = extractElvish() # removeFictionalStopWords(extractElvish())
     writeToCSV('Tolkien Elvish', list(filtered_elvish_dict.keys()), dataset_path)
     print('Tolkien Elvish:', len(filtered_elvish_dict))
 
