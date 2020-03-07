@@ -1,0 +1,300 @@
+Epoch 1/10
+ - 230s - loss: 1.8379 - val_loss: 1.9502
+Epoch 2/10
+ - 200s - loss: 1.5077 - val_loss: 1.7766
+Epoch 3/10
+ - 187s - loss: 1.2538 - val_loss: 1.6290
+Epoch 4/10
+ - 187s - loss: 1.1211 - val_loss: 1.5309
+Epoch 5/10
+ - 189s - loss: 1.0258 - val_loss: 1.4948
+Epoch 6/10
+ - 190s - loss: 0.9788 - val_loss: 1.5633
+Epoch 7/10
+ - 186s - loss: 0.8950 - val_loss: 1.6234
+Epoch 8/10
+ - 187s - loss: 0.8516 - val_loss: 1.4444
+Epoch 9/10
+ - 188s - loss: 0.7981 - val_loss: 1.2337
+Epoch 10/10
+ - 187s - loss: 0.7485 - val_loss: 1.4424
+-------------------------------------------------
+recession
+Language:  French
+Probability:  0.67746925
+-------------------------------------------------
+surface
+Language:  French
+Probability:  0.56447387
+-------------------------------------------------
+small
+Language:  English
+Probability:  0.6982032
+-------------------------------------------------
+have
+Language:  French
+Probability:  0.56285626
+-------------------------------------------------
+pedestrian
+Language:  French
+Probability:  0.45495734
+-------------------------------------------------
+notice
+Language:  English
+Probability:  0.3781801
+-------------------------------------------------
+line
+Language:  English
+Probability:  0.5228839
+-------------------------------------------------
+conductor
+Language:  French
+Probability:  0.87585604
+-------------------------------------------------
+federation
+Language:  French
+Probability:  0.78218794
+-------------------------------------------------
+save
+Language:  English
+Probability:  0.5023197
+-------------------------------------------------
+sofá
+Language:  Spanish
+Probability:  0.6004074
+-------------------------------------------------
+cocinero
+Language:  Italian
+Probability:  0.75374234
+-------------------------------------------------
+congelador
+Language:  Italian
+Probability:  0.4959469
+-------------------------------------------------
+hijo
+Language:  Italian
+Probability:  0.57443035
+-------------------------------------------------
+calzoncillo
+Language:  Italian
+Probability:  0.5970528
+-------------------------------------------------
+camaleón
+Language:  Italian
+Probability:  0.5737636
+-------------------------------------------------
+árbol
+Language:  Italian
+Probability:  0.5624285
+-------------------------------------------------
+mayonesa
+Language:  Italian
+Probability:  0.7001457
+-------------------------------------------------
+cuerno
+Language:  Italian
+Probability:  0.67759687
+-------------------------------------------------
+mantequilla
+Language:  Italian
+Probability:  0.58928835
+-------------------------------------------------
+wen
+Language:  German
+Probability:  0.56330466
+-------------------------------------------------
+erfunden
+Language:  German
+Probability:  0.9620706
+-------------------------------------------------
+vorne
+Language:  Spanish
+Probability:  0.32167757
+-------------------------------------------------
+verheiratet
+Language:  French
+Probability:  0.93459284
+-------------------------------------------------
+seiner
+Language:  English
+Probability:  0.5899502
+-------------------------------------------------
+gegangen
+Language:  German
+Probability:  0.97041893
+-------------------------------------------------
+gegeben
+Language:  German
+Probability:  0.96899074
+-------------------------------------------------
+überprüft
+Language:  German
+Probability:  0.98165107
+-------------------------------------------------
+herrlich
+Language:  German
+Probability:  0.8114176
+-------------------------------------------------
+armee
+Language:  German
+Probability:  0.58570343
+-------------------------------------------------
+ascoltare
+Language:  Italian
+Probability:  0.82786834
+-------------------------------------------------
+nonna
+Language:  Tolkien Elvish
+Probability:  0.2385142
+-------------------------------------------------
+pagare
+Language:  Italian
+Probability:  0.54212505
+-------------------------------------------------
+il vino
+Language:  Italian
+Probability:  0.6021572
+-------------------------------------------------
+importante
+Language:  Italian
+Probability:  0.6090767
+-------------------------------------------------
+uomini
+Language:  Tolkien Elvish
+Probability:  0.17575182
+-------------------------------------------------
+lo autunno
+Language:  Italian
+Probability:  0.5594713
+-------------------------------------------------
+scopo
+Language:  Italian
+Probability:  0.54796886
+-------------------------------------------------
+perchè
+Language:  French
+Probability:  0.77156055
+-------------------------------------------------
+chiaro
+Language:  Italian
+Probability:  0.71533006
+-------------------------------------------------
+reposer
+Language:  Italian
+Probability:  0.41009948
+-------------------------------------------------
+intimider
+Language:  French
+Probability:  0.94830227
+-------------------------------------------------
+mixte
+Language:  English
+Probability:  0.7370847
+-------------------------------------------------
+dissiper
+Language:  French
+Probability:  0.84293586
+-------------------------------------------------
+frustrer
+Language:  French
+Probability:  0.95469284
+-------------------------------------------------
+exemplaire
+Language:  French
+Probability:  0.8822576
+-------------------------------------------------
+aboutissement
+Language:  French
+Probability:  0.8602403
+-------------------------------------------------
+détour
+Language:  French
+Probability:  0.93921876
+-------------------------------------------------
+faillir
+Language:  French
+Probability:  0.8143794
+-------------------------------------------------
+décéder
+Language:  French
+Probability:  0.95579356
+-------------------------------------------------
+gerb
+Language:  German
+Probability:  0.763728
+-------------------------------------------------
+woof
+Language:  German
+Probability:  0.77840763
+-------------------------------------------------
+em
+Language:  English
+Probability:  0.61990166
+-------------------------------------------------
+xor
+Language:  French
+Probability:  0.5265282
+-------------------------------------------------
+sherb
+Language:  English
+Probability:  0.63412887
+-------------------------------------------------
+zor
+Language:  English
+Probability:  0.73349756
+-------------------------------------------------
+ribby
+Language:  Simlish
+Probability:  0.36018884
+-------------------------------------------------
+wibbs
+Language:  German
+Probability:  0.53608716
+-------------------------------------------------
+paba
+Language:  Spanish
+Probability:  0.34230334
+-------------------------------------------------
+mik
+Language:  German
+Probability:  0.5956469
+-------------------------------------------------
+tamrō
+Language:  Tolkien Elvish
+Probability:  0.9999994
+-------------------------------------------------
+tāna
+Language:  Tolkien Elvish
+Probability:  0.99999833
+-------------------------------------------------
+tuilē 
+Language:  Tolkien Elvish
+Probability:  1.0
+-------------------------------------------------
+yend
+Language:  German
+Probability:  0.7661648
+-------------------------------------------------
+yu
+Language:  English
+Probability:  0.31553346
+-------------------------------------------------
+wen
+Language:  German
+Probability:  0.56330454
+-------------------------------------------------
+tulyā
+Language:  Tolkien Elvish
+Probability:  1.0
+-------------------------------------------------
+rista
+Language:  English
+Probability:  0.19797216
+-------------------------------------------------
+ruskā
+Language:  Tolkien Elvish
+Probability:  1.0
+-------------------------------------------------
+rāu
+Language:  Tolkien Elvish
+Probability:  0.99999547

@@ -6,6 +6,7 @@ import unicodecsv as csv
 from bs4 import BeautifulSoup
 from nltk.corpus import stopwords 
 from nltk.tokenize import word_tokenize 
+import pandas as pd
 
 # python -m nltk.downloader stopwords
 # python -m nltk.downloader punkt 
@@ -149,6 +150,10 @@ def writeToCSV(lang_name: str, word_list:list, csv_file_path:str) -> None:
         for word in word_list:
             writer.writerow([word.strip(','), lang_name])
 
+def parseCSV(file):
+    data = pd.read_csv(file)
+    return data['Word', 'Language']
+
 def main():
     dataset_path = 'language_dataset_no_stopwords.csv'
 
@@ -171,7 +176,6 @@ def main():
     filtered_elvish_dict = extractElvish() # removeFictionalStopWords(extractElvish())
     writeToCSV('Tolkien Elvish', list(filtered_elvish_dict.keys()), dataset_path)
     print('Tolkien Elvish:', len(filtered_elvish_dict))
-
 
 if __name__ == '__main__':
     main()

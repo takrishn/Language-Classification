@@ -19,7 +19,10 @@ def parseCSV(file):
     data['Index'] = np.arange(len(data))
     return data[['Word', 'Language', "Index"]]
 
-train_data_source = 'language_dataset.csv'
+
+# train_data_source = 'language_dataset.csv'
+# train_data_source = 'language_dataset_with_stopwords.csv'
+train_data_source = 'Difficult_Set.csv'
 test_data_source = 'test_data_v1.csv'
 
 train_df = parseCSV(train_data_source)

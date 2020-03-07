@@ -47,7 +47,6 @@ def letterToTensor(letter):
 	tensor[0][letterToIndex(letter)] = 1
 	return tensor
 
-
 # Turn a line into a <line_length x 1 x n_letters> tensor
 def lineToTensor(line):
 	tensor = torch.zeros(len(line), 1, n_letters)
