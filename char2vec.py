@@ -16,7 +16,7 @@ def parseCSV_testing(file):
 
 def parseCSV(file):
     data = pd.read_csv(file)
-    data = data.sample(500)
+    data = data#.sample(500)
     data["Word"]= data["Word"].str.lower()
     data['Index'] = np.arange(len(data))
     return data[['Word', 'Language', "Index"]]
