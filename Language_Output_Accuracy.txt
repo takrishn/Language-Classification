@@ -1,0 +1,13 @@
+Accuracy (# times correct):
+
+English - 3/10, mostly mistaken for French
+Spanish - 1/10, mistaken for Italian other times
+German - 7/10, mistaken for Spanish, French and English
+Italian - 8/10, mistaken for French and Elvish
+French - 8/10, mistaken for English and Italian
+-------------
+Simlish - 1/10, mistaken for every other language
+	Simlish is created based on real life languages
+Elvish - 6/10, mistaken for German and English
+	According to wikipedia, based on Finnish, Latin, Greek, German, and Welsh
+
