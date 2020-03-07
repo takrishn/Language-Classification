@@ -1,413 +1,5171 @@
 Word,Language
+able,English
+about,English
+above,English
+act,English
+add,English
+afraid,English
+after,English
+again,English
+against,English
+age,English
+ago,English
+agree,English
+all,English
+allow,English
+also,English
+always,English
+among,English
+an,English
+and,English
+anger,English
+answer,English
+any,English
+appear,English
+apple,English
+are,English
+arrange,English
+arrive,English
+as,English
+ask,English
+baby,English
+back,English
+bad,English
+ball,English
+basic,English
+bat,English
+be,English
+bear,English
+beat,English
+beauty,English
+bed,English
+been,English
+before,English
+began,English
+begin,English
+behind,English
+believe,English
+bell,English
+best,English
+better,English
+between,English
+big,English
+bird,English
+black,English
+blood,English
+blue,English
+boat,English
+body,English
+bone,English
+book,English
+born,English
+both,English
+bottom,English
+bought,English
+box,English
+boy,English
+branch,English
+bread,English
+break,English
+bright,English
+bring,English
+broad,English
+broke,English
+brother,English
+brought,English
+brown,English
+build,English
+burn,English
+busy,English
+but,English
+buy,English
+by,English
+call,English
+came,English
+can,English
+captain,English
+car,English
+card,English
+care,English
+carry,English
+cat,English
+catch,English
+caught,English
+cause,English
+cell,English
+center,English
+century,English
+chair,English
+change,English
+character,English
+charge,English
+chart,English
+check,English
+chick,English
+chief,English
+child,English
+children,English
+choose,English
+chord,English
+circle,English
+city,English
+claim,English
+class,English
+clean,English
+clear,English
+climb,English
+clock,English
+clothe,English
+cloud,English
+coast,English
+coat,English
+cold,English
+collect,English
+colony,English
+color,English
+column,English
+common,English
+company,English
+compare,English
+complete,English
+connect,English
+consider,English
+consonant,English
+contain,English
+continent,English
+continue,English
+control,English
+cook,English
+cool,English
+copy,English
+corn,English
+corner,English
+cost,English
+cotton,English
+could,English
+count,English
+country,English
+cover,English
+cow,English
+crease,English
+create,English
+crop,English
+cross,English
+crowd,English
+cry,English
+current,English
+cut,English
+dad,English
+dance,English
+dark,English
+day,English
+dead,English
+deal,English
+dear,English
+death,English
+decide,English
+deep,English
+degree,English
+depend,English
+describe,English
+desert,English
+determine,English
+develop,English
+dictionary,English
+did,English
+differ,English
+difficult,English
+discuss,English
+distant,English
+do,English
+doctor,English
+does,English
+dog,English
+don’t,English
+door,English
+down,English
+draw,English
+dream,English
+dress,English
+drink,English
+drive,English
+drop,English
+dry,English
+duck,English
+during,English
+each,English
+ear,English
+early,English
+earth,English
+ease,English
+east,English
+eat,English
+edge,English
+effect,English
+egalitarian,English
+egg,English
+eight,English
+either,English
+electric,English
+element,English
+else,English
+end,English
+enemy,English
+energy,English
+engine,English
+enough,English
+enter,English
+equal,English
+equate,English
+erudite,English
+especially,English
+even,English
+evening,English
+event,English
+ever,English
+every,English
+exalt,English
+example,English
+except,English
+excite,English
+exercise,English
+expect,English
+experience,English
+experiment,English
+extol,English
+eye,English
+fact,English
+fair,English
+family,English
+famous,English
+far,English
+farcical,English
+farm,English
+fast,English
+fat,English
+father,English
+favor,English
+fear,English
+feed,English
+feel,English
+feet,English
+fell,English
+felt,English
+few,English
+field,English
+fig,English
+fight,English
+fill,English
+final,English
+find,English
+fire,English
+first,English
+fish,English
+fit,English
+five,English
+flat,English
+floor,English
+flow,English
+flower,English
+fly,English
+follow,English
+food,English
+foot,English
+for,English
+forest,English
+fortuitous,English
+forward,English
+found,English
+four,English
+free,English
+fresh,English
+friend,English
+from,English
+full,English
+fun,English
+game,English
+garden,English
+gather,English
+gave,English
+gentle,English
+get,English
+girl,English
+give,English
+glad,English
+glass,English
+go,English
+gold,English
+good,English
+got,English
+govern,English
+grass,English
+gray,English
+great,English
+green,English
+grew,English
+ground,English
+group,English
+grow,English
+guess,English
+guide,English
+gun,English
+had,English
+hair,English
+half,English
+happen,English
+happy,English
+hard,English
+has,English
+have,English
+he,English
+head,English
+hear,English
+heard,English
+heart,English
+heat,English
+heavy,English
+held,English
+help,English
+her,English
+here,English
+high,English
+hill,English
+him,English
+his,English
+history,English
+hit,English
+hold,English
+hole,English
+home,English
+hope,English
+horse,English
+hot,English
+hour,English
+house,English
+how,English
+huge,English
+human,English
+hundred,English
+hunt,English
+hurry,English
+ice,English
+idiosyncrasy,English
+if,English
+ignominy,English
+imagine,English
+inch,English
+indicate,English
+industry,English
+inexorable,English
+inordinate,English
+insect,English
+insidious,English
+interest,English
+invective,English
+invent,English
+iron,English
+is,English
+island,English
+job,English
+join,English
+joy,English
+jump,English
+just,English
+keep,English
+kept,English
+key,English
+kill,English
+king,English
+knew,English
+know,English
+lady,English
+lake,English
+language,English
+last,English
+late,English
+laugh,English
+law,English
+lay,English
+lead,English
+learn,English
+least,English
+leave,English
+left,English
+leg,English
+length,English
+less,English
+let,English
+letter,English
+level,English
+lie,English
+life,English
+lift,English
+light,English
+like,English
+line,English
+liquid,English
+list,English
+listen,English
+little,English
+live,English
+locate,English
+lone,English
+look,English
+lost,English
+loud,English
+love,English
+low,English
+lugubrious,English
+made,English
+major,English
+make,English
+malfeasance,English
+man,English
+many,English
+map,English
+mark,English
+market,English
+mass,English
+match,English
+matriculate,English
+matter,English
+may,English
+mean,English
+meant,English
+measure,English
+meat,English
+meet,English
+mellifluous,English
+melody,English
+men,English
+mercernary,English
+metal,English
+method,English
+middle,English
+might,English
+milk,English
+mind,English
+miss,English
+mix,English
+modern,English
+molecule,English
+money,English
+month,English
+moon,English
+more,English
+morning,English
+mortify,English
+most,English
+mother,English
+motion,English
+mount,English
+mountain,English
+mouth,English
+move,English
+much,English
+multiply,English
+munificent,English
+music,English
+must,English
+my,English
+natural,English
+near,English
+nebulous,English
+necessary,English
+neck,English
+need,English
+nefarious,English
+neighbor,English
+never,English
+new,English
+next,English
+night,English
+nine,English
+noise,English
+noon,English
+nor,English
+north,English
+nose,English
+nothing,English
+notice,English
+noun,English
+now,English
+number,English
+obfuscate,English
+object,English
+oblivion,English
+observe,English
+occur,English
+ocean,English
+of,English
+off,English
+offer,English
+office,English
+often,English
+oil,English
+old,English
+on,English
+once,English
+one,English
+only,English
+open,English
+operate,English
+opposite,English
+order,English
+organ,English
+ostentatious,English
+other,English
+our,English
+out,English
+over,English
+own,English
+oxygen,English
+paint,English
+pair,English
+panacea,English
+paper,English
+paragraph,English
+parent,English
+party,English
+pass,English
+past,English
+path,English
+pattern,English
+pay,English
+people,English
+perhaps,English
+period,English
+perjury,English
+pernicious,English
+pick,English
+picture,English
+piece,English
+plain,English
+plane,English
+planet,English
+plant,English
+play,English
+please,English
+plural,English
+poem,English
+poor,English
+populate,English
+post,English
+pound,English
+power,English
+practice,English
+precipitous,English
+predilection,English
+prepare,English
+prerogative,English
+present,English
+press,English
+pretty,English
+process,English
+product,English
+proper,English
+property,English
+proponent,English
+protect,English
+prove,English
+provide,English
+pull,English
+push,English
+put,English
+quick,English
+quiet,English
+quite,English
+race,English
+rain,English
+raise,English
+range,English
+rather,English
+reach,English
+read,English
+ready,English
+real,English
+reason,English
+receive,English
+red,English
+remember,English
+renounce,English
+repeat,English
+reply,English
+reprehension,English
+represent,English
+require,English
+result,English
+rich,English
+ride,English
+right,English
+ring,English
+rise,English
+river,English
+road,English
+roll,English
+room,English
+root,English
+rope,English
+round,English
+row,English
+rudimentary,English
+rule,English
+safe,English
+said,English
+sail,English
+salt,English
+same,English
+sanctimonious,English
+sanguine,English
+save,English
+saw,English
+say,English
+scale,English
+school,English
+scrupulous,English
+sea,English
+search,English
+season,English
+seat,English
+second,English
+seed,English
+seem,English
+select,English
+self,English
+sell,English
+send,English
+sense,English
+sent,English
+sentence,English
+separate,English
+sequester,English
+serve,English
+settle,English
+seven,English
+several,English
+shall,English
+shape,English
+share,English
+sharp,English
+she,English
+sheet,English
+shell,English
+ship,English
+shoe,English
+shop,English
+shore,English
+short,English
+should,English
+shoulder,English
+side,English
+sight,English
+sign,English
+silent,English
+silver,English
+since,English
+sing,English
+single,English
+sister,English
+sit,English
+size,English
+skill,English
+skin,English
+sky,English
+slave,English
+sleep,English
+slip,English
+slow,English
+small,English
+smell,English
+smile,English
+snow,English
+soft,English
+soil,English
+soldier,English
+solve,English
+some,English
+song,English
+soon,English
+sound,English
+south,English
+space,English
+speak,English
+special,English
+speech,English
+speed,English
+spell,English
+spend,English
+spoke,English
+spring,English
+square,English
+star,English
+state,English
+stay,English
+stead,English
+steam,English
+steel,English
+step,English
+stone,English
+stood,English
+store,English
+story,English
+straight,English
+strange,English
+stream,English
+street,English
+string,English
+strong,English
+student,English
+study,English
+subject,English
+subtract,English
+subversive,English
+success,English
+such,English
+sudden,English
+sugar,English
+suggest,English
+suit,English
+summer,English
+sun,English
+supply,English
+sure,English
+swim,English
+syllable,English
+symbol,English
+tail,English
+take,English
+talk,English
+tall,English
+tantamount,English
+teach,English
+teeth,English
+tell,English
+temperature,English
+ten,English
+tenacious,English
+term,English
+than,English
+thank,English
+that,English
+the,English
+their,English
+them,English
+then,English
+there,English
+these,English
+they,English
+thick,English
+thin,English
+thing,English
+think,English
+third,English
+this,English
+those,English
+though,English
+thought,English
+thousand,English
+three,English
+through,English
+throw,English
+thus,English
+tie,English
+time,English
+tiny,English
+tire,English
+to,English
+together,English
+told,English
+tone,English
+too,English
+took,English
+tool,English
+touch,English
+toward,English
+town,English
+track,English
+trade,English
+travel,English
+tree,English
+trepidation,English
+trip,English
+trouble,English
+truck,English
+try,English
+turn,English
+twenty,English
+two,English
+under,English
+unit,English
+unremitting,English
+until,English
+unwitting,English
+up,English
+us,English
+use,English
+usual,English
+valley,English
+value,English
+vary,English
+verb,English
+verisimilitude,English
+very,English
+vicarious,English
+view,English
+vilify,English
+visit,English
+voice,English
+volition,English
+vowel,English
+wait,English
+walk,English
+wall,English
+want,English
+war,English
+warm,English
+wash,English
+watch,English
+water,English
+wave,English
+way,English
+wear,English
+weather,English
+week,English
+weight,English
+well,English
+went,English
+were,English
+west,English
+what,English
+wheel,English
+when,English
+where,English
+whether,English
+which,English
+while,English
+white,English
+who,English
+whole,English
+whose,English
+why,English
+wide,English
+wife,English
+wild,English
+will,English
+willful,English
+win,English
+window,English
+wing,English
+wire,English
+wish,English
+wistful,English
+with,English
+woman,English
+women,English
+won’t,English
+wonder,English
+wood,English
+word,English
+work,English
+world,English
+would,English
+write,English
+written,English
+wrong,English
+wrote,English
+yard,English
+year,English
+yellow,English
+yes,English
+yet,English
+you,English
+young,English
+your,English
+à,French
+a augmenté,French
+a commencé,French
+à partir de,French
+a pris,French
+accord,French
+accueillir ,French
+acheté,French
+acheter,French
+acier,French
+acte,French
+âge,French
+aider,French
+aile,French
+aimant,French
+ainsi,French
+ajouter,French
+alimentation,French
+aller,French
+ami,French
+amour,French
+amusement,French
+anneau,French
+année,French
+apparaître,French
+appel,French
+apporté,French
+apporter,French
+apprendre,French
+après,French
+arbre,French
+Arrêtez,French
+arrière,French
+arriver,French
+ascenseur,French
+assez,French
+assimiler,French
+atome,French
+atteindre,French
+attendre,French
+au-dessus,French
+aucun,French
+augmenter,French
+aujourd'hui,French
+aussi,French
+avant,French
+avec,French
+avis,French
+avoir,French
+baignade,French
+balle,French
+bande,French
+banque,French
+bas,French
+bateau,French
+bâton,French
+battre,French
+beaucoup,French
+beauté,French
+bébé,French
+besoin,French
+bien,French
+bien que,French
+bientôt,French
+blanc,French
+blé,French
+bleu,French
+bloc,French
+bois,French
+boisson,French
+boîte,French
+bon,French
+bord,French
+bouche,French
+bouilloire ,French
+bouteille,French
+boutique,French
+branche,French
+bras,French
+bruit,French
+brûler,French
+brun,French
+bureau,French
+calme,French
+canard,French
+capable,French
+capitaine,French
+capture,French
+caractère,French
+carré,French
+carte,French
+cas,French
+cassé,French
+ce,French
+célèbre,French
+cellule,French
+centre,French
+cercle,French
+certains,French
+ces,French
+ceux,French
+chaîne,French
+chaise,French
+chaleur,French
+chambre,French
+changement,French
+chanson,French
+chanter,French
+chapeau,French
+chaque,French
+charger,French
+chasse,French
+chat,French
+chaud,French
+chaussure,French
+chauve-souris,French
+chef,French
+chemin,French
+cher,French
+cheval,French
+cheveux,French
+chien,French
+chiffre,French
+chirurgie,French
+choisir,French
+chose,French
+ciel,French
+cinq,French
+clair,French
+clé,French
+cloche,French
+cœur,French
+coffre-fort,French
+coin,French
+colère,French
+colline,French
+colonie,French
+colonne,French
+comme,French
+commencer,French
+comment,French
+commerce,French
+commun,French
+comparer,French
+compétence,French
+complète,French
+compter,French
+conception,French
+conduire,French
+conseil,French
+conservé,French
+consonne,French
+construire,French
+contenir,French
+continet,French
+continuer,French
+contre,French
+contrôle,French
+copie,French
+coquille,French
+corde,French
+corps,French
+costume,French
+côte,French
+côté,French
+coton,French
+couleur,French
+coup,French
+coupe,French
+cour,French
+courant,French
+courir,French
+cours,French
+court,French
+coût,French
+couvercle,French
+créer,French
+cri,French
+croire,French
+croître,French
+cucurbitacée,French
+cueillir ,French
+cuisinier,French
+dans,French
+danse,French
+de base,French
+débit,French
+début,French
+décès,French
+décider,French
+décimal,French
+décrire,French
+degré,French
+dehors,French
+déménagement,French
+dents,French
+dépendre,French
+depuis,French
+dernier,French
+derrière,French
+désert,French
+dessus,French
+déterminer,French
+deux,French
+deuxième,French
+développer,French
+deviner,French
+devrait,French
+dictionnaire,French
+différer,French
+difficulté,French
+discours,French
+discuter,French
+disparu,French
+dit,French
+dix,French
+doigt,French
+doit,French
+domaine,French
+donné,French
+donner,French
+dont,French
+doux,French
+droit,French
+eau,French
+eau ,French
+échelle,French
+éclat,French
+école,French
+écouter,French
+écrire,French
+écrit,French
+écureuil,French
+effet,French
+égal,French
+électrique,French
+élément,French
+elle,French
+emploi,French
+en attente,French
+encore,French
+énergie,French
+enfant,French
+enfants,French
+ennemi,French
+ennuyer,French
+énorme,French
+enregistrer,French
+enseigner,French
+ensemble,French
+entendre,French
+entendu,French
+entraînement,French
+entreprise,French
+entrer,French
+envisager,French
+envoyer,French
+épais,French
+épanouissement,French
+épaule,French
+épeler,French
+équipe,French
+esclave,French
+espace,French
+espoir,French
+esprit,French
+essayer,French
+est allé,French
+est tombé,French
+est venu,French
+étage,French
+étaient,French
+était,French
+étang,French
+étape,French
+état,French
+été,French
+étoile,French
+étrange,French
+être,French
+étude,French
+étudiant,French
+eu,French
+événement,French
+exciter,French
+exemple,French
+exercice,French
+exiger,French
+expédié,French
+expérience,French
+fabriqué,French
+facilité,French
+faible,French
+faire,French
+fait,French
+famille,French
+fauteuil,French
+favoriser,French
+femme,French
+femmes,French
+fenêtre,French
+fer,French
+ferme,French
+feu,French
+feuille,French
+feuilleté,French
+feutre,French
+figue,French
+fil,French
+fille,French
+fils,French
+finition,French
+fleur,French
+fonctionner,French
+forêt,French
+forme,French
+fort,French
+foule,French
+fournir,French
+fourrure,French
+fracture,French
+frais,French
+frapper,French
+frère,French
+froid,French
+gagner,French
+gamme,French
+garçon,French
+garder,French
+gauche,French
+gaz,French
+général,French
+genre,French
+gérant ,French
+glace,French
+glissement,French
+gouverner,French
+graisse,French
+grandiose,French
+graphique,French
+gratuit,French
+grenouille,French
+groupe,French
+guerre,French
+gueule,French
+guider,French
+h,French
+habituel,French
+herbe,French
+heure,French
+heureuse,French
+heureux,French
+histoire,French
+hiver,French
+homme,French
+hommes,French
+horloge,French
+huile,French
+huit,French
+humain,French
+ici,French
+idée,French
+il faut,French
+il ya,French
+île,French
+ils,French
+image,French
+imaginer,French
+impression,French
+inclure,French
+indiquer,French
+infirmière ,French
+insecte,French
+intérêt,French
+interroger,French
+inventer,French
+jamais,French
+jambe,French
+jardin,French
+jaune,French
+jeter,French
+jeu,French
+jeune,French
+joie,French
+joindre,French
+jouer,French
+jour,French
+jusqu’à,French
+jusqu’à ce que,French
+juste,French
+l'accueil,French
+l'eau,French
+l'écureuil,French
+l'oeil,French
+l'ours,French
+là,French
+la cause,French
+lac,French
+laisser,French
+lait,French
+langue,French
+lavage,French
+lent,French
+les,French
+lettre,French
+leur,French
+lien,French
+lieu,French
+ligne,French
+liquide,French
+lire,French
+lit,French
+litre,French
+livre,French
+localiser,French
+loin,French
+lointain,French
+longueur,French
+lourd,French
+lumière,French
+lune,French
+lutte,French
+magasin,French
+maintenant,French
+mais,French
+maître,French
+majeur,French
+mal,French
+manger,French
+manière,French
+manquer,French
+manteau,French
+marché,French
+marcher,French
+marque,French
+matériel,French
+matin,French
+mauvais,French
+médecin,French
+meilleur,French
+mélanger,French
+mélodie,French
+même,French
+mensonge,French
+mer,French
+merci,French
+mère,French
+mesurer,French
+métal,French
+méthode,French
+mettre,French
+midi,French
+mieux,French
+milieu,French
+mille,French
+millefeuille,French
+mince,French
+minuscule,French
+modèle,French
+moderne,French
+moi,French
+moins,French
+mois,French
+moitié,French
+molécule,French
+monde,French
+montagne,French
+montée,French
+montrer,French
+monture,French
+mort,French
+mot,French
+moteur,French
+mourir,French
+mouvement,French
+multiplier,French
+mur,French
+musique,French
+naturel,French
+navire,French
+ne sera pas,French
+nécessaire,French
+needs a context,French
+neige,French
+net,French
+neuf,French
+nez,French
+niveau,French
+noir,French
+nom,French
+notre,French
+nourriture,French
+nous,French
+nouveau,French
+nuage,French
+nuit,French
+objet,French
+observer,French
+obtenir,French
+occupé,French
+océan,French
+odeur,French
+œil,French
+œuf,French
+oiseau,French
+opposé,French
+ordre,French
+oreille,French
+organe,French
+organiser,French
+os,French
+ou,French
+où,French
+ouest,French
+oui,French
+outil,French
+ouvert,French
+oxygène,French
+pain,French
+paire,French
+paragraphe,French
+paraître,French
+parler,French
+particulier,French
+particulièrement,French
+partie,French
+pas,French
+passé,French
+passer,French
+patienter,French
+pauvres,French
+payer,French
+pays,French
+peau,French
+peindre,French
+pendant,French
+pensée,French
+penser,French
+perdu,French
+père,French
+période,French
+permettre,French
+personne,French
+personnes,French
+petit,French
+peu,French
+peupler,French
+peur,French
+peut,French
+peut-être,French
+pièce,French
+pied,French
+pieds,French
+pierre,French
+piste,French
+pistolet,French
+place,French
+plaine,French
+planète,French
+plat,French
+plein,French
+pli,French
+pluie,French
+pluriel,French
+plus,French
+plusieurs,French
+plutôt,French
+pneu,French
+poème,French
+poids,French
+poisson,French
+poitrine,French
+pomme,French
+porte,French
+poser,French
+poste,French
+pouce,French
+pouilly-fuissé,French
+pour,French
+pourquoi,French
+pourrait,French
+pousser,French
+poussin,French
+pouvoir,French
+pratique,French
+première,French
+prendre,French
+préparer,French
+près de,French
+présent,French
+prêt,French
+printemps,French
+pris,French
+problème,French
+processus,French
+proche,French
+produire,French
+produit,French
+profond,French
+propagation,French
+proposition,French
+propre,French
+propriété,French
+protéger,French
+prouver,French
+puis,French
+puissance,French
+quand,French
+quatre,French
+queue,French
+quincaillerie ,French
+racine,French
+raison,French
+rangée,French
+rapide,French
+rappeler,French
+rassasié,French
+rayon,French
+recevoir,French
+recherche,French
+récolte,French
+recueillir,French
+réel,French
+regarder,French
+région,French
+règle,French
+régler,French
+relier,French
+remplir,French
+rencontre,French
+répétition,French
+répondre,French
+réponse,French
+représenter,French
+résisté,French
+résoudre,French
+reste,French
+rester,French
+résultat,French
+revendication,French
+rêver,French
+riche,French
+rien,French
+rire,French
+rivage,French
+rivière,French
+robe,French
+roi,French
+roue,French
+rouge,French
+rouleau,French
+route,French
+rue,French
+s’adapter,French
+s’asseoir,French
+s’il vous plaît,French
+sable,French
+sang,French
+sauf,French
+sauter,French
+sauvage,French
+sauver,French
+savait,French
+savoir,French
+scie,French
+se demander,French
+se dépêcher,French
+se mettre d’accord,French
+se produire,French
+se rencontrent,French
+sec,French
+sel,French
+sélectionner,French
+semaine,French
+semence,French
+sens,French
+séparé,French
+sept,French
+serrurerie ,French
+seul,French
+seulement,French
+siècle,French
+siège,French
+signe,French
+signifiait,French
+signifier,French
+silencieux,French
+similaire,French
+sœur,French
+soi,French
+soins,French
+soirée,French
+soleil,French
+sombre,French
+sommeil,French
+sont,French
+soudain,French
+souhaiter,French
+sourire,French
+sous,French
+soustraire,French
+souvent,French
+spécial,French
+succès,French
+sucre,French
+suffixe,French
+suggérer,French
+suivant,French
+suivre,French
+sujet,French
+supporter,French
+sûr,French
+syllabe,French
+symbole,French
+système,French
+taille,French
+tandis que,French
+tard,French
+tel,French
+température,French
+temps,French
+tenir,French
+terme,French
+Terminé,French
+terre,French
+tête,French
+tirer,French
+tomber,French
+tôt,French
+toucher,French
+toujours,French
+tous,French
+tous les deux,French
+tout,French
+tout à fait,French
+travail,French
+traverser,French
+très,French
+trois,French
+troisième,French
+tronçon,French
+trop,French
+trou,French
+trouvé,French
+trouver,French
+tuer,French
+une fois,French
+unique,French
+unité,French
+usine,French
+utiliser,French
+vache,French
+vague,French
+valeur,French
+vallée,French
+vapeur,French
+varier,French
+vendre,French
+vent,French
+verbe,French
+vérifier,French
+verre,French
+verrerie ,French
+vers,French
+vers le bas,French
+vert,French
+vêtir,French
+viande,French
+vie,French
+vieux,French
+ville,French
+vingt,French
+visite,French
+vitesse,French
+vivre,French
+voile,French
+voir,French
+voisin,French
+voiture,French
+voix,French
+voler,French
+volonté,French
+votre,French
+voudrais,French
+vouloir,French
+voyelle,French
+vrai,French
+vue,French
+yaourt,French
+zone,French
+Abbildung,German
+Abdeckung,German
+Abend,German
+aber,German
+abhängen,German
+Absatz,German
+Abschnitt,German
+abweichen,German
+acht,German
+Achtung,German
+ähnlich,German
+Akkord,German
+Akt,German
+Aktie,German
+alle,German
+allgemein,German
+als,German
+alt,German
+Alter,German
+am meisten,German
+am wenigsten,German
+andere,German
+Angebot,German
+angestellter,German
+Angst,German
+ängstlich,German
+ankommen,German
+Anlage,German
+Anruf,German
+Anspruch,German
+Antriebs,German
+Antwort,German
+antworten,German
+Anzahl,German
+Anzug,German
+apfel,German
+Arbeit,German
+Ärger,German
+arrangieren,German
+Arzt,German
+auch,German
+auf,German
+aufladen,German
+Aufstieg,German
+auftreten,German
+Aufzug,German
+Auge,German
+Augenblick,German
+aus,German
+Ausdruck,German
+außer,German
+bald,German
+Basis,German
+bauen,German
+Bauernhof,German
+Baum,German
+Baumwolle,German
+bedeuten,German
+begann,German
+begeistern,German
+Beginn,German
+Begriff,German
+begünstigen,German
+bei,German
+beide,German
+Bein,German
+Beispiel,German
+beitreten,German
+bekam,German
+benutzen ,German
+beobachten,German
+Bereich,German
+bereit,German
+berg,German
+berühmt,German
+berühren,German
+beschäftigt,German
+beschreiben,German
+besiedeln,German
+besitzen,German
+besondere,German
+besser,German
+beste,German
+bestellen,German
+bestimmen,German
+Besuch,German
+betrachten,German
+betreiben,German
+Bett,German
+Bewegung,German
+beweisen,German
+bieten,German
+Bild,German
+bis,German
+Bitte,German
+Blatt,German
+blau,German
+bleiben,German
+Blick,German
+blume,German
+Blut,German
+Boden,German
+Boot,German
+braun,German
+breit,German
+brennen,German
+bringen,German
+Brot,German
+brötchen,German
+Bruder,German
+brustkorb,German
+Buch,German
+buchstabieren,German
+Büro,German
+Charakter,German
+Dampf,German
+danken,German
+dann,German
+dass,German
+Dauer,German
+denken,German
+deren,German
+dezimal,German
+dick,German
+diejenigen,German
+dienen,German
+dies,German
+diese,German
+direkt,German
+diskutieren,German
+doppelt,German
+Dorf,German
+Draht,German
+drei,German
+Dreieck,German
+dritte,German
+Druck,German
+drücken,German
+dunkel,German
+dünn,German
+durch,German
+Ebene,German
+Ecke,German
+eher,German
+Ei,German
+eichhörnchen,German
+Eile,German
+ein,German
+einfach,German
+eingeben,German
+Einheit,German
+einige,German
+einmal,German
+einreiben,German
+einsam,German
+Einzel,German
+Eis,German
+Eisen,German
+elektrisch,German
+Elementes,German
+Elternteil,German
+empfangen,German
+Ende,German
+Energie,German
+ente,German
+entfernt,German
+enthalten,German
+entscheiden,German
+entweder,German
+entwickeln,German
+Entwurf,German
+er,German
+Erde,German
+Erfahrung,German
+erfinden,German
+Erfolg,German
+erforderlich,German
+erfordern,German
+Ergebnis,German
+erhalten,German
+erhöhen,German
+erlauben,German
+erleichtern,German
+Ernte,German
+erraten,German
+erreichen,German
+erscheinen,German
+erste,German
+erwarten,German
+essen,German
+etikettierung,German
+fähig,German
+Fahrt,German
+fallen,German
+falsch,German
+Falte,German
+Familie,German
+Fang,German
+Farbe,German
+Fehl,German
+Feige,German
+fein,German
+Feind,German
+Feld,German
+Fenster,German
+Fett,German
+Feuer,German
+fiel,German
+Filz,German
+finden,German
+Firma,German
+Fisch,German
+Fledermaus,German
+Fleisch,German
+fliegen,German
+fließen,German
+Flügel,German
+Flugzeug,German
+Fluss,German
+Flüssigkeit,German
+folgen,German
+Formular,German
+fortsetzen,German
+Frage,German
+fragen,German
+Fraktion,German
+Frau,German
+Frauen,German
+Freude,German
+Freund,German
+freut ,German
+frisch,German
+froh,German
+frucht,German
+früh,German
+Frühling,German
+fühlen,German
+führen,German
+füllen,German
+fünf,German
+fünfhundertfünfundfünfzig,German
+Funk,German
+für,German
+fuß,German
+Füße,German
+Futtermittel,German
+gab,German
+ganz,German
+ganze,German
+Garten,German
+Gases,German
+geben,German
+Gebiss,German
+geboren,German
+gebracht,German
+Gedanken,German
+Gedicht,German
+gefangen,German
+geführt,German
+gefunden,German
+gegen,German
+Gegenteil,German
+gehalten,German
+gehen,German
+gehört,German
+Geist,German
+gekauft,German
+gelb,German
+Geld,German
+gemacht,German
+gemeinsam,German
+gemeint,German
+genau,German
+genug,German
+geöffnet,German
+gerade,German
+Geruch,German
+gesamt,German
+Geschäft,German
+Geschichte,German
+Geschicklichkeit,German
+geschrieben,German
+Geschwindigkeit,German
+gesendet,German
+Gesetz,German
+Gesicht,German
+gestern ,German
+getan,German
+Getränk,German
+gewesen,German
+Gewicht,German
+gewinnen,German
+ging,German
+Glanz,German
+Glas,German
+glauben,German
+gleich,German
+gleichsetzen,German
+Glocke,German
+glücklich,German
+goldenen,German
+Grad,German
+Gras,German
+grau,German
+groß,German
+Größe,German
+grün,German
+Grund,German
+Gruppe,German
+Haar,German
+haben,German
+Hafen,German
+Hälfte,German
+Hals,German
+halten,German
+Handel,German
+hässlich ,German
+hatte,German
+Haupt-,German
+Hauptstadt,German
+Haus,German
+heiß,German
+hell,German
+Herz,German
+heute,German
+hier,German
+Hilfe,German
+Himmel,German
+hinter,German
+Hinweis,German
+hinzufügen,German
+hoch,German
+Hof,German
+hoffen,German
+Holz,German
+hören,German
+Hügel,German
+Hund,German
+hundert,German
+Hut,German
+ich,German
+ich bin,German
+Idee,German
+ihm,German
+ihre,German
+immer,German
+Immobilien,German
+in der Nähe von,German
+ingenieur,German
+insbesondere,German
+insekt,German
+Insel,German
+ist,German
+ja,German
+Jagd,German
+Jahr,German
+jahr ,German
+Jahrhundert,German
+jeder,German
+jetzt,German
+jung,German
+Junge,German
+Kälte,German
+kam,German
+Kampf,German
+Kapitän,German
+Karte,German
+Kasten,German
+Katze,German
+kaufen,German
+kennenzulernen,German
+Kinder,German
+klar,German
+Klasse,German
+Kleid,German
+kleiden,German
+klein,German
+klingen,German
+Kluft,German
+Knochen,German
+Koch,German
+Kolonie,German
+kommen,German
+kommen ,German
+König,German
+können,German
+können ,German
+könnte,German
+Konsonant,German
+Kontinent,German
+Kontrolle,German
+Kopf,German
+Kopie,German
+Körper,German
+Kosten,German
+kostenlos,German
+Kraft,German
+krankenschwester,German
+Krawatte,German
+Kreis,German
+kreuzschlitzschraubenzieher,German
+Krieg,German
+Kugel,German
+Kuh,German
+kühlen,German
+küken,German
+Kunst,German
+Kurs,German
+kurz,German
+Küste,German
+Lächeln,German
+Lachen,German
+lachen ,German
+Lager,German
+Lande,German
+lange,German
+Lärm,German
+lassen,German
+Lastwagen,German
+laufen,German
+laut,German
+leben,German
+Lebensmittel,German
+legen,German
+lehren,German
+lehrerin ,German
+Leiste,German
+leiter ,German
+lernen,German
+lesen,German
+letzte,German
+Licht,German
+liebe,German
+Lied,German
+lief,German
+Linie,German
+links,German
+Loch,German
+lokalisieren,German
+lösen,German
+Lösung,German
+Luft,German
+Lüge,German
+machen,German
+macht,German
+Mädchen,German
+malen,German
+Mann,German
+Männer,German
+Mannschaft,German
+Mantel,German
+Marke,German
+Markt,German
+Maschine,German
+Maßstab,German
+Materie,German
+Meer,German
+mehr,German
+mehrere,German
+mehreren,German
+Meile,German
+meine,German
+Melodie,German
+menge,German
+Mensch,German
+Menschen,German
+merken,German
+Messe,German
+messen,German
+Metall,German
+milch,German
+mir,German
+mischen,German
+mit,German
+Mittag,German
+Mitte,German
+modernen,German
+möglich,German
+Molekül,German
+Monat,German
+Mond,German
+Morgen,German
+multiplizieren,German
+Mund,German
+Musik,German
+muss,German
+müssen,German
+Muster,German
+Mutter,German
+nach,German
+nach oben,German
+nach unten,German
+Nachbar,German
+nächste,German
+Nacht,German
+nahm,German
+Nase,German
+Natur,German
+natürlich,German
+nehmen,German
+neu,German
+neun,German
+nicht,German
+nichts,German
+nie,German
+niedrig,German
+noch,German
+Nomen,German
+Norden,German
+nur,German
+ob,German
+oben,German
+obere,German
+Oberfläche,German
+Objekt,German
+Obst,German
+obwohl,German
+oder,German
+oft,German
+Ohr,German
+Öl,German
+Orgel,German
+Ort,German
+Osten,German
+Ozean,German
+Paar,German
+Partei,German
+Partitur,German
+passen,German
+passieren,German
+Pferd,German
+Pflege,German
+pflücken,German
+Pfund,German
+Pistole,German
+Platz,German
+pleite,German
+plötzlich,German
+polizistin ,German
+Praxis,German
+Produkt,German
+produzieren,German
+protokollieren,German
+Prozess,German
+Prüfung,German
+Punkt,German
+quietscheentchen,German
+Rad,German
+Rand,German
+Raum,German
+realen,German
+Recht,German
+Rede,German
+Regel,German
+regeln,German
+regen,German
+regieren,German
+regisseur,German
+reich,German
+Reifen,German
+Reihe,German
+Reise,German
+Rekord,German
+Rennen,German
+richtig,German
+riesig,German
+rindfleisch,German
+Rings,German
+Rohr,German
+Rolle,German
+röntgen,German
+rot,German
+rücken ,German
+ruhig,German
+rührei,German
+Runde,German
+Rutsch,German
+Sache,German
+Säge,German
+sagen,German
+sagte,German
+Salz,German
+Samen,German
+sammeln,German
+sanft,German
+Satz,German
+sauber,German
+Sauerstoff,German
+schaffen,German
+Schale,German
+scharf,German
+scheinen,German
+Schiene,German
+Schiff,German
+Schlaf,German
+Schlag,German
+schlagen,German
+schlecht,German
+schleppend,German
+Schließen,German
+schlittschuhlaufen,German
+Schlüssel,German
+Schnee,German
+schnell,German
+Schnitt,German
+Schnur,German
+schön ,German
+Schönheit,German
+schrei,German
+schreiben,German
+schrieb,German
+Schritt,German
+Schuh,German
+Schule,German
+Schüler,German
+Schulter,German
+schützen,German
+Schwanz,German
+schwarz,German
+schweinefleisch,German
+schwer,German
+Schwester,German
+schwierig,German
+schwierig ,German
+schwimmen,German
+sechs,German
+Segel,German
+sehen,German
+sehr,German
+Seil,German
+sein,German
+seine,German
+seit,German
+seite,German
+seits,German
+selbst,German
+seltsam,German
+senden,German
+setzen,German
+sie ,German
+sieben,German
+Silbe,German
+Silber,German
+sind,German
+singen,German
+Sinn,German
+Sitz,German
+sitzen,German
+Sklave,German
+Sohn,German
+sollte,German
+Sommer,German
+Sonne,German
+sonst,German
+Spalte,German
+sparen,German
+Spaß,German
+spät,German
+Speiche,German
+Speicher,German
+spiel,German
+spielen,German
+Sprache,German
+sprechen,German
+springen,German
+Spur,German
+stadt,German
+Stahl,German
+Stamm,German
+stark,German
+statt,German
+stehen,German
+steigen,German
+Stelle,German
+sterben,German
+Stern,German
+stiegen,German
+Stimme,German
+Stopp,German
+straße,German
+streichholzschachtel,German
+streichholzschächtelchen,German
+strom,German
+Stück,German
+Studie,German
+Stuhl,German
+Stunde,German
+stunde ,German
+Substanz,German
+subtrahieren,German
+Suche,German
+suchen,German
+Süden,German
+Tabelle,German
+Tag,German
+Tanz,German
+tat,German
+Tatsache,German
+tausend,German
+Teil,German
+Teilung,German
+Temperatur,German
+Thema,German
+tief,German
+Tier,German
+Tod,German
+Tonhöhe,German
+tot,German
+töten,German
+tragen,German
+träumen,German
+treffen,German
+trennen,German
+trocken,German
+tschechien,German
+tun,German
+Tür,German
+tut,German
+Typ,German
+überprüfen,German
+überqueren,German
+Überraschung,German
+überwachung,German
+üblich,German
+Übung,German
+Ufer,German
+uhr,German
+uhr ,German
+umfassen,German
+umweltverschmutzung,German
+Umzug,German
+und,German
+uns,German
+unsere,German
+unter,German
+unterlassen Sie,German
+Unterstützung,German
+Ursache,German
+variieren,German
+Vater,German
+Veränderung,German
+Veranstaltung,German
+verbinden,German
+Verbreitung,German
+verbringen,German
+Verbum,German
+Verfahren,German
+Vergangenheit,German
+vergleichen,German
+verkaufen,German
+verkäufer ,German
+verlassen,German
+verloren,German
+Versorgung,German
+Versuch,German
+versuchen,German
+vertreten,German
+Verwendung,German
+viel,German
+viele,German
+vielleicht,German
+vier,German
+Vogel,German
+Vokal,German
+voll,German
+vollständig,German
+von,German
+vor,German
+Vorbei,German
+vorbereiten,German
+vorhanden,German
+vorschlagen,German
+vorstellen,German
+Vortrag,German
+vorwärts,German
+wachsen,German
+wählen,German
+wahr,German
+während,German
+wahrscheinlich,German
+Wald,German
+Wand,German
+waren,German
+warme,German
+Wärme,German
+warten,German
+warum,German
+Wasch,German
+Wasser,German
+Weg,German
+weich,German
+weiß,German
+weit,German
+Welle,German
+Welt,German
+wenig,German
+wenige,German
+weniger,German
+wenn,German
+werden,German
+werfen,German
+Werkzeug,German
+Wert,German
+Westen,German
+wettbewerbsfähig,German
+Wetter,German
+wie,German
+wieder,German
+Wiederholung,German
+wiedersehen,German
+wiederum,German
+wilden,German
+winzig,German
+wir,German
+wird,German
+wird nicht,German
+Wirkung,German
+wissen,German
+Wissenschaft,German
+wo,German
+Woche,German
+woche ,German
+Wohnung,German
+Wolke,German
+wollen,German
+Wort,German
+Wörterbuch,German
+wuchs,German
+Wunder,German
+wünschen,German
+würde,German
+Wurzel,German
+wusste,German
+Wüste,German
+Zahl,German
+zahlen,German
+zählen,German
+zehn,German
+zeichen,German
+zeigen,German
+zeit,German
+zelle,German
+zentrum,German
+ziehen,German
+ziemlich,German
+Zimmer,German
+Zoll,German
+Zorn,German
+zu,German
+Zucker,German
+Zug,German
+Zuhause,German
+zuhören,German
+zurück,German
+zusammen,German
+Zustand,German
+zustimmen,German
+zwanzig,German
+zwei,German
+Zweig,German
+zweite,German
+zwischen,German
+a fanabla,Italian
+abbastanza,Italian
+abilità,Italian
+accadere,Italian
+acciaio,Italian
+accordo,Italian
+acqua,Italian
+acquistare,Italian
+adattarsi,Italian
+aderire,Italian
+affare,Italian
+aggiungere,Italian
+agnostico ,Italian
+aiuola,Italian
+aiutare,Italian
+aiuto ,Italian
+albero,Italian
+alcuni,Italian
+alimentazione,Italian
+alleviare,Italian
+allora,Italian
+altro,Italian
+amico,Italian
+amore,Italian
+ampio,Italian
+anatra,Italian
+anche,Italian
+anche se,Italian
+ancora,Italian
+andare,Italian
+anello,Italian
+angolo,Italian
+animale,Italian
+anno,Italian
+apericena,Italian
+aperto,Italian
+apparire,Italian
+appartamento,Italian
+argento,Italian
+aria,Italian
+arrangiarsi,Italian
+arrivare,Italian
+ascensore,Italian
+asciugamano,Italian
+asciutto,Italian
+ascoltare,Italian
+aspettare,Italian
+atomo,Italian
+atto,Italian
+attraversare,Italian
+attraverso,Italian
+aumentare,Italian
+avanti,Italian
+avere,Italian
+aveva,Italian
+avviso,Italian
+azienda,Italian
+baffona,Italian
+bambini,Italian
+bambino,Italian
+banca,Italian
+barca,Italian
+basso,Italian
+bastone,Italian
+battere,Italian
+bellezza,Italian
+bene,Italian
+bevanda,Italian
+bianco,Italian
+bisogno,Italian
+blocco,Italian
+blu,Italian
+bocca,Italian
+braccio,Italian
+breve,Italian
+bruciare,Italian
+brushcetta,Italian
+bugia,Italian
+buio,Italian
+buono,Italian
+caccia,Italian
+cadere,Italian
+caduto,Italian
+caldo,Italian
+calore,Italian
+cambiamento,Italian
+camera,Italian
+camminare,Italian
+cane,Italian
+cantare,Italian
+cantiere,Italian
+canzone,Italian
+capelli,Italian
+capitale,Italian
+capitano,Italian
+capo,Italian
+cappello,Italian
+cappotto,Italian
+carattere,Italian
+carica,Italian
+caro,Italian
+catturato,Italian
+cavallo,Italian
+cella,Italian
+cento,Italian
+cerchio,Italian
+certo,Italian
+che,Italian
+chiacchierare ,Italian
+chiacchiericcio,Italian
+chiamata,Italian
+chiaro,Italian
+chiave,Italian
+chiedere,Italian
+ci,Italian
+cibo,Italian
+cinque,Italian
+cinquecentocinquantacinque ,Italian
+circa,Italian
+città,Italian
+coda,Italian
+coinquilino,Italian
+collegare,Italian
+collina,Italian
+collo,Italian
+colonna,Italian
+colore,Italian
+colpire,Italian
+colpo,Italian
+commercio,Italian
+compitare,Italian
+comprato,Italian
+comune,Italian
+concordare,Italian
+condizione,Italian
+confrontare,Italian
+consentire,Italian
+considerare,Italian
+contare,Italian
+contenere,Italian
+continuare,Italian
+contro,Italian
+controllare,Italian
+controllo,Italian
+copertura,Italian
+coppia,Italian
+corda,Italian
+corpo,Italian
+corrente,Italian
+corretto,Italian
+corse,Italian
+corso,Italian
+così,Italian
+costruire,Italian
+cotone,Italian
+cravatta,Italian
+creare,Italian
+credere,Italian
+crescere,Italian
+culaccino,Italian
+cuoco,Italian
+cuore,Italian
+cura,Italian
+curiosare,Italian
+dare,Italian
+decidere,Italian
+decimale,Italian
+denti,Italian
+descrivere,Italian
+deserto,Italian
+desiderare,Italian
+desiderio,Italian
+determinare,Italian
+deve,Italian
+di,Italian
+di base,Italian
+di nuovo,Italian
+di più,Italian
+dieci,Italian
+dietro,Italian
+differire,Italian
+difficoltà,Italian
+dimensione,Italian
+dimentico,Italian
+dimostrare,Italian
+dipendere,Italian
+dipingere,Italian
+diretto,Italian
+diritto,Italian
+discorso,Italian
+Discussioni,Italian
+discutere,Italian
+disegnare,Italian
+dito,Italian
+divertimento,Italian
+divisione,Italian
+dizionario,Italian
+dolce,Italian
+dollaro,Italian
+domanda,Italian
+donna,Italian
+donne,Italian
+dopo,Italian
+doppio,Italian
+dove,Italian
+dovrebbe,Italian
+dritto,Italian
+due,Italian
+e,Italian
+è,Italian
+è andato,Italian
+è cresciuto,Italian
+è venuto,Italian
+eccitare,Italian
+effetto,Italian
+elenco,Italian
+elettrico,Italian
+energia,Italian
+entrambi,Italian
+erano,Italian
+erba,Italian
+esagerare,Italian
+esatto,Italian
+esempio,Italian
+esercizio,Italian
+esperienza,Italian
+esperimento,Italian
+essere,Italian
+essi,Italian
+esso,Italian
+estate,Italian
+età,Italian
+fagiolini ,Italian
+famiglia,Italian
+fare,Italian
+fatto,Italian
+fattoria,Italian
+favorire,Italian
+felice,Italian
+feltro,Italian
+ferro,Italian
+ferrovia,Italian
+fico,Italian
+fiera,Italian
+figlio,Italian
+filo,Italian
+finestra,Italian
+finitura,Italian
+fino a quando,Italian
+fiore,Italian
+fiume,Italian
+flusso,Italian
+foglio,Italian
+folla,Italian
+fondare,Italian
+fondo,Italian
+foresta,Italian
+fornire,Italian
+fornitura,Italian
+foro,Italian
+forse,Italian
+forte,Italian
+forza,Italian
+fra,Italian
+fratello,Italian
+frazione,Italian
+freddo,Italian
+fretta,Italian
+frontale,Italian
+frutta,Italian
+fuoco,Italian
+fuori,Italian
+gamba,Italian
+gamma,Italian
+gara,Italian
+gattara,Italian
+gatto,Italian
+generale,Italian
+genitore,Italian
+gettare,Italian
+ghiaccio,Italian
+già,Italian
+giallo,Italian
+giardino,Italian
+giocare,Italian
+gioco,Italian
+gioia,Italian
+giorno,Italian
+giovane,Italian
+giro,Italian
+giù,Italian
+governare,Italian
+grafico,Italian
+grasso,Italian
+gratuito,Italian
+grazie,Italian
+grido,Italian
+grigio,Italian
+gruppo,Italian
+guardare,Italian
+guidare,Italian
+guscio,Italian
+ha,Italian
+ha dato,Italian
+ha detto,Italian
+ha fatto,Italian
+ha iniziato,Italian
+ha preso,Italian
+ha scritto,Italian
+il mio,Italian
+il nostro,Italian
+il suo,Italian
+il tuo,Italian
+immaginare,Italian
+immagine,Italian
+immediato,Italian
+imparare,Italian
+impaurito,Italian
+impianto,Italian
+improvviso,Italian
+in grado di,Italian
+includere,Italian
+indicare,Italian
+indietro,Italian
+individuare,Italian
+indossare,Italian
+indovinare,Italian
+inizio,Italian
+insegnare,Italian
+inserire,Italian
+insetto,Italian
+insieme,Italian
+integrale,Italian
+inventare,Italian
+inverno,Italian
+inviare,Italian
+inviato,Italian
+io,Italian
+iscriversi,Italian
+isola,Italian
+la cui,Italian
+lacrima,Italian
+lasciare,Italian
+lasciare ,Italian
+lato,Italian
+latte,Italian
+lattina,Italian
+lavaggio,Italian
+lavoro,Italian
+legge,Italian
+leggere,Italian
+legno,Italian
+lei,Italian
+lento,Italian
+lettera,Italian
+letto,Italian
+libbra,Italian
+linea,Italian
+lingua,Italian
+liquido,Italian
+livello,Italian
+lontano,Italian
+loro,Italian
+lotta,Italian
+lotto,Italian
+lucciola,Italian
+luce,Italian
+luminoso,Italian
+lunghezza,Italian
+lungo,Italian
+macchina,Italian
+magari,Italian
+maggiore,Italian
+magnete,Italian
+male,Italian
+mangiare,Italian
+mantenere,Italian
+mappa,Italian
+marchio,Italian
+mare,Italian
+marrone,Italian
+mascalzone,Italian
+maschi,Italian
+massa,Italian
+materiale,Italian
+mattina,Italian
+mattina ,Italian
+medico,Italian
+meglio,Italian
+mela,Italian
+melodia,Italian
+menefreghista,Italian
+meno,Italian
+mentre,Italian
+meraviglia,Italian
+meraviglioso ,Italian
+mercato,Italian
+mescolare,Italian
+mese,Italian
+Messaggio,Italian
+metà,Italian
+metallo,Italian
+metodo,Italian
+mettere,Italian
+mezzo,Italian
+mezzogiorno,Italian
+migliaia,Italian
+miglio,Italian
+migliore,Italian
+milione,Italian
+miniera,Italian
+misurare,Italian
+modello,Italian
+modo,Italian
+moglie,Italian
+molecola,Italian
+molti,Italian
+moltiplicare,Italian
+molto,Italian
+mondo,Italian
+montagna,Italian
+morbido,Italian
+morire,Italian
+morte,Italian
+morto,Italian
+mosto,Italian
+motivo,Italian
+moto,Italian
+motore,Italian
+mozzafiato,Italian
+mucca,Italian
+muro,Italian
+musica,Italian
+nascita,Italian
+naso,Italian
+natura,Italian
+naturale,Italian
+nave,Italian
+nazione,Italian
+necessario,Italian
+negozio,Italian
+nemico,Italian
+nero,Italian
+neve,Italian
+niente,Italian
+noi,Italian
+nome,Italian
+non,Italian
+non sarà,Italian
+notte,Italian
+nove,Italian
+numerale,Italian
+numero,Italian
+nuoto,Italian
+nuovo,Italian
+occhio,Italian
+occupato,Italian
+oceano,Italian
+odore,Italian
+offerta,Italian
+oggetto,Italian
+ogni,Italian
+olio,Italian
+oltre,Italian
+onda,Italian
+operare,Italian
+opposto,Italian
+ora,Italian
+ordine,Italian
+orecchio,Italian
+organizzare,Italian
+organo,Italian
+originale,Italian
+orologio,Italian
+osservare,Italian
+ossigeno,Italian
+osso,Italian
+ottenere,Italian
+ottenuto,Italian
+otto,Italian
+ovest,Italian
+paese,Italian
+pagare,Italian
+pagina,Italian
+palla,Italian
+pane,Italian
+pantafolaio,Italian
+papà,Italian
+paragrafo,Italian
+pari,Italian
+parlare,Italian
+parola,Italian
+parrucchiere,Italian
+particolare,Italian
+particolarmente,Italian
+partita,Italian
+partito,Italian
+passare,Italian
+passato,Italian
+passeggiata,Italian
+passo,Italian
+paura,Italian
+pausa,Italian
+pece,Italian
+pelle,Italian
+pensare,Italian
+pensiero,Italian
+pensione,Italian
+per,Italian
+per favore,Italian
+perché,Italian
+perdere,Italian
+pericolo,Italian
+periodo,Italian
+perso,Italian
+persone,Italian
+pesante,Italian
+pèsca ,Italian
+pesce,Italian
+pezzo,Italian
+pianeta,Italian
+pianura,Italian
+piazza,Italian
+piccolo,Italian
+piede,Italian
+piedi,Italian
+piega,Italian
+pietra,Italian
+pioggia,Italian
+pipistrello,Italian
+più,Italian
+piuttosto,Italian
+plurale,Italian
+pneumatico,Italian
+pochi,Italian
+poesia,Italian
+pollice,Italian
+popolare,Italian
+porre,Italian
+porta,Italian
+portare,Italian
+portato,Italian
+porto,Italian
+posa,Italian
+posizione,Italian
+possibile,Italian
+possibilità,Italian
+posto,Italian
+potenza,Italian
+potuto,Italian
+povero,Italian
+pratica,Italian
+prendere,Italian
+preparare,Italian
+presto,Italian
+prima,Italian
+primo,Italian
+principale,Italian
+probabile,Italian
+processo,Italian
+prodotto,Italian
+produrre,Italian
+profondità,Italian
+promiscuità ,Italian
+proprietà,Italian
+proprio,Italian
+prossimo,Italian
+proteggere,Italian
+provare,Italian
+pulcino,Italian
+pulito,Italian
+punteggio,Italian
+può,Italian
+qualsiasi,Italian
+quando,Italian
+quarto di gallone,Italian
+quattro,Italian
+quelli,Italian
+queste,Italian
+questo,Italian
+quota,Italian
+quoziente,Italian
+rabbia,Italian
+raccogliere,Italian
+raccolto,Italian
+radice,Italian
+ragazza,Italian
+ragazzo,Italian
+raggio,Italian
+raggiungere,Italian
+ramo,Italian
+rappresentare,Italian
+re,Italian
+reale,Italian
+regione,Italian
+regola,Italian
+rendere,Italian
+ricco,Italian
+ricerca,Italian
+ricevere,Italian
+richiedere,Italian
+richiesta,Italian
+ricordare,Italian
+ridere,Italian
+riempire,Italian
+ripetizione,Italian
+risolvere,Italian
+rispondere,Italian
+risposta,Italian
+risultato,Italian
+riva,Italian
+rock,Italian
+rosso,Italian
+rotolo,Italian
+rotto,Italian
+rumore,Italian
+ruota,Italian
+ruscello,Italian
+sabbia,Italian
+sale,Italian
+salire,Italian
+salita,Italian
+salto,Italian
+salvare,Italian
+sangue,Italian
+sapere,Italian
+sapeva,Italian
+sarebbe,Italian
+sbagliato,Italian
+scala,Italian
+scarpa,Italian
+scatola,Italian
+scegliere,Italian
+scheda,Italian
+scherzo ,Italian
+schiavo,Italian
+schifoso,Italian
+scienza,Italian
+scritto,Italian
+scrivere,Italian
+scuola,Italian
+scuro,Italian
+se stesso,Italian
+secolo,Italian
+secondo,Italian
+sedersi,Italian
+sedia,Italian
+sedile,Italian
+sega,Italian
+segno,Italian
+segno ,Italian
+seguire,Italian
+sei,Italian
+selezionare,Italian
+selvaggio,Italian
+sembrare,Italian
+seme,Italian
+semplice,Italian
+sempre,Italian
+senso,Italian
+sentiero,Italian
+sentito,Italian
+separato,Italian
+sera,Italian
+servire,Italian
+sette,Italian
+settimana,Italian
+sezione,Italian
+sfogarsi,Italian
+sgonfiato,Italian
+sì,Italian
+si incontrano,Italian
+significava,Italian
+signora,Italian
+silenzioso,Italian
+sillaba,Italian
+simbolo,Italian
+simile,Italian
+singolo,Italian
+sinistra,Italian
+slittamento,Italian
+soggetto,Italian
+soggiornare,Italian
+sognare,Italian
+soldato,Italian
+soldi,Italian
+sole,Italian
+solito,Italian
+solo,Italian
+soluzione,Italian
+sonno,Italian
+sono,Italian
+sopportare,Italian
+sopra,Italian
+sorella,Italian
+sorellina,Italian
+sorgeva,Italian
+sorriso,Italian
+sostantivo,Italian
+sostanza,Italian
+sottile,Italian
+sotto,Italian
+sottrarre,Italian
+spalla,Italian
+spazio,Italian
+speciale,Italian
+spendere,Italian
+spento,Italian
+speranza,Italian
+spesso,Italian
+spettacolo,Italian
+spingere,Italian
+spostare,Italian
+stagione,Italian
+stampa,Italian
+stare in piedi,Italian
+stato,Italian
+stazione,Italian
+stella,Italian
+stesso,Italian
+sticazzi,Italian
+storia,Italian
+strada,Italian
+strano,Italian
+stringa,Italian
+strofinare,Italian
+struggimento,Italian
+strumento,Italian
+studente,Italian
+studio,Italian
+stuzzicadenti ,Italian
+successo,Italian
+suddetto,Italian
+suffisso,Italian
+suggerire,Italian
+suolo,Italian
+suono,Italian
+supporto,Italian
+sviluppare,Italian
+tagliente,Italian
+taglio,Italian
+tale,Italian
+tardi,Italian
+tavolo,Italian
+tempo,Italian
+tenere,Italian
+tenuto,Italian
+termine,Italian
+terra,Italian
+terzo,Italian
+tesoro,Italian
+testa,Italian
+tirare,Italian
+toccare,Italian
+topolino,Italian
+totale,Italian
+tra,Italian
+tranne,Italian
+tranquillo,Italian
+tratto,Italian
+tre,Italian
+treno,Italian
+triangolo,Italian
+troppo,Italian
+trovare,Italian
+turno,Italian
+tuta,Italian
+tutto,Italian
+uccello,Italian
+uccidere,Italian
+ufficio,Italian
+uguagliare,Italian
+ultimo,Italian
+umano,Italian
+una volta,Italian
+unità,Italian
+uomo,Italian
+uovo,Italian
+valore,Italian
+vapore,Italian
+variare,Italian
+vecchio,Italian
+vece,Italian
+vedere,Italian
+veloce,Italian
+velocità,Italian
+vendere,Italian
+venire,Italian
+venti,Italian
+vento,Italian
+verificarsi,Italian
+vero,Italian
+verso,Italian
+vestire,Italian
+vestito,Italian
+vetro,Italian
+viaggi,Italian
+viaggio,Italian
+vicino,Italian
+vigore,Italian
+villaggio,Italian
+vita,Italian
+vittoria,Italian
+vivere,Italian
+vocale,Italian
+voce,Italian
+voi,Italian
+volare,Italian
+volontà,Italian
+volto,Italian
+zucchero,Italian
+ah,Simlish
+apper,Simlish
+arogaba,Simlish
+aw,Simlish
+aws,Simlish
+bay,Simlish
+bicoler,Simlish
+binkt,Simlish
+blow,Simlish
+brich,Simlish
+bweb,Simlish
+caba,Simlish
+can't,Simlish
+caribea,Simlish
+case,Simlish
+checkmar,Simlish
+chika,Simlish
+chumcha,Simlish
+clops,Simlish
+cou,Simlish
+cul,Simlish
+dag dag,Simlish
+deboo,Simlish
+deg deg,Simlish
+dobbinips,Simlish
+docturg,Simlish
+dwam,Simlish
+fa,Simlish
+foo,Simlish
+fretishe,Simlish
+fruby,Simlish
+fuens,Simlish
+fweeka,Simlish
+garsha,Simlish
+gerbit,Simlish
+gr,Simlish
+gronk,Simlish
+gur,Simlish
+gurn,Simlish
+gutta,Simlish
+hap,Simlish
+heb,Simlish
+ilana,Simlish
+ip,Simlish
+it,Simlish
+jadosi,Simlish
+jigga,Simlish
+ka,Simlish
+kat,Simlish
+kik,Simlish
+laka,Simlish
+lass,Simlish
+litzergam,Simlish
+luv,Simlish
+mak,Simlish
+maka,Simlish
+marf,Simlish
+mik,Simlish
+mik up,Simlish
+minnai,Simlish
+minza bar,Simlish
+miza,Simlish
+nart,Simlish
+ne,Simlish
+neeba zow,Simlish
+neep,Simlish
+neib,Simlish
+nerk,Simlish
+ninap,Simlish
+nip,Simlish
+nooboo,Simlish
+nu,Simlish
+nubba,Simlish
+om,Simlish
+om za gleb,Simlish
+ongie,Simlish
+oropea,Simlish
+plum,Simlish
+posha,Simlish
+powey,Simlish
+really,Simlish
+roli nowster,Simlish
+roo,Simlish
+shooflee,Simlish
+shurb,Simlish
+sperk,Simlish
+stamby,Simlish
+sugnorg,Simlish
+sul sul,Simlish
+taw,Simlish
+tinap,Simlish
+tinip,Simlish
+va,Simlish
+vadish,Simlish
+vens unch,Simlish
+vous,Simlish
+wabadebadoo,Simlish
+woofum,Simlish
+woven,Simlish
+wub mezino,Simlish
+wui,Simlish
+wut sa dib,Simlish
+yib-sim,Simlish
+yibbs,Simlish
+yibbsy,Simlish
+yibsim,Simlish
+zagadoo,Simlish
+zep tor maboo,Simlish
+zerpa,Simlish
+zo hungwah,Simlish
+zow cay,Simlish
+a su vez,Spanish
+a través de,Spanish
+abajo,Spanish
+abierta,Spanish
+abrigo,Spanish
 aburrido,Spanish
+acabado,Spanish
+aceite,Spanish
+acerca,Spanish
+acero,Spanish
+acorde,Spanish
+acto,Spanish
+actual,Spanish
+acuerdo,Spanish
+acuerdo,Spanish
+adecuada,Spanish
+adelante,Spanish
+adivinar,Spanish
+agua,Spanish
 aguacate,Spanish
+agudo,Spanish
+agujero,Spanish
+ahora,Spanish
 ahorrar,Spanish
+aire,Spanish
+al este,Spanish
+alambre,Spanish
+alcance,Spanish
+alegría,Spanish
+algodón,Spanish
+algunos,Spanish
+alimentos,Spanish
+aliviar,Spanish
 alrededor,Spanish
+amar,Spanish
+amarillo,Spanish
+ambos,Spanish
+amigo,Spanish
+amplio,Spanish
+añadir,Spanish
 anaranjado,Spanish
+anillo,Spanish
+años,Spanish
+antes,Spanish
+aparecerá,Spanish
 apoderarse,Spanish
+apoyo,Spanish
+aprender,Spanish
 aprovecharse,Spanish
+aquí,Spanish
+árbol,Spanish
+arena,Spanish
+ascenso,Spanish
+ascensor,Spanish
+así,Spanish
+asiento,Spanish
+átomo,Spanish
+aumentando,Spanish
+aumentar,Spanish
+aún,Spanish
+aunque,Spanish
+aviso,Spanish
+ayudar,Spanish
+azúcar,Spanish
+azul,Spanish
+bajo,Spanish
 balbucear,Spanish
+banco,Spanish
+barco,Spanish
+barra,Spanish
+base de,Spanish
+básico,Spanish
+bastante,Spanish
+bate,Spanish
+batir,Spanish
+bebé,Spanish
+bebida,Spanish
+belleza,Spanish
+blanco,Spanish
+bloque,Spanish
+boca,Spanish
+bola,Spanish
+borde,Spanish
+bosque,Spanish
+brazo,Spanish
+brecha,Spanish
+brillante,Spanish
+brillo,Spanish
+buena,Spanish
+buque,Spanish
+buscar,Spanish
+búsqueda,Spanish
+caballo,Spanish
+cabeza,Spanish
+cada,Spanish
+cadena,Spanish
+caer,Spanish
+caja,Spanish
+caliente,Spanish
+calle,Spanish
+calor,Spanish
+cama,Spanish
+cambio,Spanish
+caminar,Spanish
+camión,Spanish
+campamento,Spanish
+canción,Spanish
+cantar,Spanish
+capaz,Spanish
+capitán,Spanish
+capturado,Spanish
+capturas,Spanish
+cara,Spanish
+carácter,Spanish
 carrera,Spanish
+carretera,Spanish
 carro,Spanish
+cayó,Spanish
+caza,Spanish
+celular,Spanish
+cerca,Spanish
+Cerrar,Spanish
+charla,Spanish
+chica,Spanish
+cien,Spanish
+ciencia,Spanish
+ciento,Spanish
+cierto,Spanish
+cima,Spanish
+cinco,Spanish
+círculo,Spanish
 ciudad,Spanish
+claro,Spanish
+clase,Spanish
+clave,Spanish
+cobrar,Spanish
+coche,Spanish
+cociente,Spanish
+cocinero,Spanish
+cola,Spanish
+cólera,Spanish
+colina,Spanish
+colores,Spanish
+columna,Spanish
+comenzar,Spanish
+comenzó,Spanish
+comer,Spanish
+comercio,Spanish
+como,Spanish
+cómo,Spanish
+comparar,Spanish
+comprado,Spanish
+comprar,Spanish
+comprobar,Spanish
+común,Spanish
+concha,Spanish
+condición,Spanish
+conducir,Spanish
+conectar,Spanish
+conjunto,Spanish
+conseguido,Spanish
+conseguir,Spanish
+considerar,Spanish
+construir,Spanish
+contar,Spanish
+contener,Spanish
+contento,Spanish
+continuar,Spanish
+contra,Spanish
+corazón,Spanish
+correcta,Spanish
 corredora,Spanish
+corriente,Spanish
+corrió,Spanish
+cortada,Spanish
+corto,Spanish
+crear,Spanish
+crecer,Spanish
+creció,Spanish
+creer,Spanish
+cruzar,Spanish
+cualquier,Spanish
+cuando,Spanish
+cuarto de galón,Spanish
+cuatro,Spanish
+cubierta,Spanish
+cuello,Spanish
+cuerda,Spanish
+cuerpo,Spanish
+cuidado,Spanish
+cuota,Spanish
+curso,Spanish
+cuya,Spanish
+dama,Spanish
+dar,Spanish
+de altura,Spanish
+de capital,Spanish
+de cultivos,Spanish
+de espesor,Spanish
+de metal,Spanish
+de nuevo,Spanish
+de pie,Spanish
+debe,Spanish
+deberá,Spanish
+debería,Spanish
+decidir,Spanish
+decir,Spanish
+dedo,Spanish
+dejar,Spanish
+delante,Spanish
+deletrear,Spanish
+delgado,Spanish
+demás,Spanish
+demasiado,Spanish
+demostrar,Spanish
+dependerá,Spanish
+derecho,Spanish
 desarrollando,Spanish
+desarrollar,Spanish
+describir,Spanish
+desde,Spanish
+desear,Spanish
 desempeñar,Spanish
+desgaste,Spanish
+desierto,Spanish
+deslizamiento,Spanish
 desmesuradamente,Spanish
 desordenada,Spanish
 desoxirribonucleótido,Spanish
+después,Spanish
+destacado,Spanish
+Deténgase,Spanish
+determinar,Spanish
+detrás,Spanish
+día,Spanish
+dibujar,Spanish
+diccionario,Spanish
+dicho,Spanish
+dientes,Spanish
+diez,Spanish
+difícil,Spanish
+dinero,Spanish
+dio,Spanish
+directa,Spanish
+discurso,Spanish
+discutir,Spanish
+diseño,Spanish
 dispuesto,Spanish
+distante,Spanish
 distribuidores,Spanish
+diversión,Spanish
+división,Spanish
+doble,Spanish
+dólar,Spanish
+donde,Spanish
+dos,Spanish
+duro,Spanish
+edad,Spanish
+efecto,Spanish
+ejecutar,Spanish
+ejemplo,Spanish
+ejercicio,Spanish
+él,Spanish
+el control,Spanish
+eléctrica,Spanish
+elegir,Spanish
+ella,Spanish
+empate,Spanish
+empresa,Spanish
+empujar,Spanish
+en espera,Spanish
+encajar,Spanish
+encontrado,Spanish
+encontrar,Spanish
+enemigo,Spanish
+energía,Spanish
+enseñar,Spanish
+entonces,Spanish
+entrar,Spanish
+enviado,Spanish
+enviar,Spanish
+equiparar,Spanish
+equipo,Spanish
 equivocarse,Spanish
+eran,Spanish
 esbirro,Spanish
+escala,Spanish
+esclavo,Spanish
+escribió,Spanish
+escribir,Spanish
+escrito,Spanish
+escuchar,Spanish
+escuela,Spanish
+espacio,Spanish
+espalda,Spanish
 espantapájaros,Spanish
+especial,Spanish
+especialmente,Spanish
+esperanza,Spanish
+esperar,Spanish
+espere,Spanish
+esposa,Spanish
+esquina,Spanish
 establecer,Spanish
+estación,Spanish
+estado,Spanish
 estadounidense,Spanish
+este,Spanish
+éstos,Spanish
+estrella,Spanish
+estudiante,Spanish
+estudio,Spanish
+exacta,Spanish
+excepto,Spanish
+excitar,Spanish
+exigir,Spanish
+éxito,Spanish
+experiencia,Spanish
+experimento,Spanish
+extraño,Spanish
+familia,Spanish
+favorecer,Spanish
+feliz,Spanish
 ferretería,Spanish
 ferrocarril,Spanish
+fina,Spanish
+flor,Spanish
+fluir,Spanish
+fracción,Spanish
+frío,Spanish
+frotar,Spanish
+fruta,Spanish
+fuego,Spanish
+fuera,Spanish
+fuerte,Spanish
+fuerza,Spanish
+ganar,Spanish
+gato,Spanish
+gobernar,Spanish
+golpe,Spanish
+golpear,Spanish
+gracias,Spanish
+gran,Spanish
+granja,Spanish
+grasa,Spanish
+grito,Spanish
+grupo,Spanish
+guardado,Spanish
+guardar,Spanish
+guiar,Spanish
+gusta,Spanish
+habilidad,Spanish
+habitación,Spanish
+habitual,Spanish
+hablar,Spanish
+habló,Spanish
+hace,Spanish
+hacer,Spanish
+hacia,Spanish
+Halar,Spanish
+haría,Spanish
+hasta,Spanish
+hay,Spanish
+hecho,Spanish
+hermana,Spanish
+hermano,Spanish
+herramienta,Spanish
+hielo,Spanish
+hierba,Spanish
+hierro,Spanish
+higo,Spanish
+hijo,Spanish
+historia,Spanish
+hizo,Spanish
+hoja,Spanish
+hombre,Spanish
+hombres,Spanish
+hombro,Spanish
+horas,Spanish
+hueso,Spanish
+huevo,Spanish
+humana,Spanish
+idioma,Spanish
 idiosincrasia,Spanish
+igual,Spanish
+imagen,Spanish
+imaginar,Spanish
+imán,Spanish
+importante,Spanish
+incluir,Spanish
+incluso,Spanish
+indicar,Spanish
+inferior,Spanish
+inicio,Spanish
+insecto,Spanish
+instantánea,Spanish
+instrumento,Spanish
+interés,Spanish
+inventar,Spanish
+invierno,Spanish
+ir,Spanish
 irresponsable,Spanish
 irrumpir,Spanish
+isla,Spanish
+izquierda,Spanish
 jamonero,Spanish
+jardín,Spanish
+jefe,Spanish
+joven,Spanish
+juego,Spanish
+jugar,Spanish
 juguetón,Spanish
+juntos,Spanish
+justo,Spanish
+lado,Spanish
+lanzar,Spanish
+largo,Spanish
+lata,Spanish
+lavado,Spanish
+leche,Spanish
+leer,Spanish
+lenta,Spanish
+ley,Spanish
+libra,Spanish
+libre,Spanish
+limpia,Spanish
+línea,Spanish
+líquido,Spanish
+lista,Spanish
+listo,Spanish
+llamada,Spanish
+llano,Spanish
+llegar,Spanish
+llenar,Spanish
+llevado,Spanish
+llevar,Spanish
+lluvia,Spanish
+lo,Spanish
+lo hará,Spanish
+localizar,Spanish
+longitud,Spanish
+los,Spanish
+lucha,Spanish
+lugar,Spanish
+luz,Spanish
+madera,Spanish
+maíz,Spanish
+mañana,Spanish
+mantener,Spanish
+mantenga,Spanish
+manzana,Spanish
+mapa,Spanish
+máquina,Spanish
+mar,Spanish
+maravilla,Spanish
+marca,Spanish
+marrón,Spanish
+más,Spanish
+más bien,Spanish
+masa,Spanish
+matar,Spanish
+materiales,Spanish
+médico,Spanish
+medio,Spanish
+mediodía,Spanish
+medir,Spanish
+mejor,Spanish
+melodía,Spanish
+menos,Spanish
+mensaje,Spanish
+mente,Spanish
+mentira,Spanish
+menudo,Spanish
+mercado,Spanish
+mes,Spanish
+mesa,Spanish
+método,Spanish
+mezclar,Spanish
+mi,Spanish
+miedo,Spanish
+mientras,Spanish
+mil,Spanish
+milla,Spanish
+millones,Spanish
+mina,Spanish
+misma,Spanish
+molécula,Spanish
+montaña,Spanish
+morir,Spanish
+movimiento,Spanish
+mucho,Spanish
+muchos,Spanish
+muerte,Spanish
+muerto,Spanish
+mujer,Spanish
+mujeres,Spanish
+multiplicar,Spanish
+multitud,Spanish
+mundo,Spanish
+música,Spanish
+muy,Spanish
+nacido,Spanish
+nación,Spanish
+nada,Spanish
+nadar,Spanish
+nariz,Spanish
+naturales,Spanish
+naturaleza,Spanish
+necesario,Spanish
+necesitará,Spanish
+negro,Spanish
+neumáticos,Spanish
+nieve,Spanish
+niños,Spanish
+nivel,Spanish
+no lo hará,Spanish
+noche,Spanish
+norte,Spanish
+nos,Spanish
+nosotros,Spanish
+nuestro,Spanish
+nueve,Spanish
+nuevo,Spanish
+número,Spanish
+nunca,Spanish
+objeto,Spanish
+observar,Spanish
+océano,Spanish
+ocho,Spanish
+ocupado,Spanish
+oeste,Spanish
+oferta,Spanish
+oficina,Spanish
+oído,Spanish
 ojalá,Spanish
+ojo,Spanish
+ola,Spanish
+olor,Spanish
+operar,Spanish
+oportunidad,Spanish
+opuesta,Spanish
+orden,Spanish
+organizar,Spanish
+órgano,Spanish
+originales,Spanish
+orilla,Spanish
 ornitorrinco,Spanish
+oscuro,Spanish
 otorrinolaringólogo,Spanish
+otros,Spanish
+oxígeno,Spanish
+pagar,Spanish
+página,Spanish
+país,Spanish
+pájaro,Spanish
+palabra,Spanish
+palillo,Spanish
+pan,Spanish
+papá,Spanish
+papel,Spanish
+para,Spanish
 paraguas,Spanish
 parangaricutirimicuaro,Spanish
+parecer,Spanish
+pared,Spanish
+párrafo,Spanish
+partido,Spanish
+pasado,Spanish
+pasar,Spanish
+paseo,Spanish
+paso,Spanish
+patio,Spanish
+pato,Spanish
+patrón,Spanish
+peces,Spanish
+peligro,Spanish
+pensado,Spanish
+pensar,Spanish
+pequeño,Spanish
+perdido,Spanish
+período,Spanish
+permitir,Spanish
+pero,Spanish
 perro,Spanish
+personas,Spanish
 pertenecer,Spanish
+pesada,Spanish
+pie,Spanish
+piedra,Spanish
+piel,Spanish
+pienso,Spanish
+pierna,Spanish
+pies,Spanish
+pieza,Spanish
 pingüino,Spanish
+pintar,Spanish
+piso,Spanish
+plan de,Spanish
+plana,Spanish
+planeta,Spanish
+plano,Spanish
+planta,Spanish
+plantear,Spanish
+plata,Spanish
+plaza,Spanish
+plazo,Spanish
+pliegue,Spanish
+plurales,Spanish
+poblar,Spanish
+pobre,Spanish
+pocos,Spanish
+podía,Spanish
+podría,Spanish
+poema,Spanish
+polluelo,Spanish
+poner,Spanish
+por,Spanish
+por encima de,Spanish
+por favor,Spanish
+por qué,Spanish
+por tanto,Spanish
+posible,Spanish
+posición,Spanish
+potencia,Spanish
+práctica,Spanish
+pregunta,Spanish
+preguntar,Spanish
 prendiendo,Spanish
+prensa,Spanish
+preparar,Spanish
+primero,Spanish
+prisa,Spanish
+proceso,Spanish
+producirse,Spanish
+producto,Spanish
+profunda,Spanish
+propagación,Spanish
+propiedad,Spanish
+propio,Spanish
+proporcionar,Spanish
 propósito,Spanish
 prórroga,Spanish
+proteger,Spanish
+próximo,Spanish
+prueba,Spanish
+pueblo,Spanish
+puede,Spanish
+puerta,Spanish
+puerto,Spanish
+pulgadas,Spanish
+puntuación,Spanish
+qué,Spanish
+quedarse,Spanish
+quemar,Spanish
+querer,Spanish
+querido,Spanish
+quizás,Spanish
+raíz,Spanish
+rama,Spanish
+rápido,Spanish
+razón,Spanish
+reales,Spanish
+recibir,Spanish
+reclamación,Spanish
+recoger,Spanish
+recordar,Spanish
+recta,Spanish
+región,Spanish
+registro,Spanish
+regla,Spanish
+reloj,Spanish
+repentina,Spanish
+repita,Spanish
+representar,Spanish
+responder,Spanish
+respuesta,Spanish
+restar,Spanish
+resultado,Spanish
+reunir,Spanish
+rey,Spanish
+rica,Spanish
+río,Spanish
+risa,Spanish
+roca,Spanish
+rojo,Spanish
+rollo,Spanish
+rompió,Spanish
+ronda,Spanish
 ronronear,Spanish
+rotura,Spanish
+rueda,Spanish
+ruido,Spanish
+saber,Spanish
+sabía,Spanish
+sal,Spanish
+saltar,Spanish
+salvaje,Spanish
+sangre,Spanish
+satélite,Spanish
+se fue,Spanish
+se ha ido,Spanish
+se reúnen,Spanish
+sección,Spanish
+seco,Spanish
+segundo,Spanish
+seguro,Spanish
+seis,Spanish
+seleccionar,Spanish
+semana,Spanish
 semejante,Spanish
+semilla,Spanish
+sencilla,Spanish
+señorita,Spanish
+sentar,Spanish
+sentarse,Spanish
+sentido,Spanish
+separada,Spanish
+ser,Spanish
+ser distinto,Spanish
+sí,Spanish
+siempre,Spanish
+sierra,Spanish
+siete,Spanish
+siga,Spanish
+siglo,Spanish
+significado,Spanish
+significará,Spanish
+signo,Spanish
+sílaba,Spanish
+silencio,Spanish
+silla,Spanish
+símbolo,Spanish
+sobre,Spanish
+sola,Spanish
+soldado,Spanish
+sólo,Spanish
+solución,Spanish
+sombrero,Spanish
+sonar,Spanish
+soñar,Spanish
+sonrisa,Spanish
 sonrojado,Spanish
+soportar,Spanish
+suceder,Spanish
+suelo,Spanish
+sueño,Spanish
+suficiente,Spanish
+sufijo,Spanish
+sugerir,Spanish
+sujeto,Spanish
+suministro,Spanish
+sustancia,Spanish
+sustantivo,Spanish
+tabla,Spanish
+tamaño,Spanish
+también,Spanish
+tarde,Spanish
+tarjeta,Spanish
+temporada,Spanish
+temprana,Spanish
+tener,Spanish
+tenido,Spanish
+tercero,Spanish
+tiempo,Spanish
+tienda,Spanish
+tiene,Spanish
+tierra,Spanish
+tocar,Spanish
+todavía,Spanish
+todo,Spanish
+tomar,Spanish
+tomó,Spanish
+totales,Spanish
+trabajo,Spanish
+traer,Spanish
+traído,Spanish
+traje,Spanish
+tramo,Spanish
+tranquila,Spanish
 trastorno,Spanish
+tratar,Spanish
+tren,Spanish
+tres,Spanish
 triángulo,Spanish
+último,Spanish
+una vez,Spanish
+unidad,Spanish
+unirse,Spanish
+usted,Spanish
+vaca,Spanish
+valor,Spanish
+vapor,Spanish
+variar,Spanish
+varios,Spanish
+vecino,Spanish
+veinte,Spanish
+velocidad,Spanish
+vender,Spanish
+ventana,Spanish
+ver,Spanish
+verano,Spanish
 verdadero,Spanish
 vergüenza,Spanish
+vestido,Spanish
+vestir,Spanish
+viaje,Spanish
+viajes,Spanish
+vida,Spanish
+vidrio,Spanish
+viejo,Spanish
+viento,Spanish
+vino,Spanish
+vivir,Spanish
+vocal,Spanish
+volar,Spanish
+voz,Spanish
+y,Spanish
+ya sea,Spanish
+zapato,Spanish
+zona,Spanish
 zurcir,Spanish
-idiosyncrasy,English
-willful,English
-verisimilitude,English
-vicarious,English
-volition,English
-unwitting,English
-tenacious,English
-sanguine,English
-sequester,English
-prerogative,English
-perjury,English
-nefarious,English
-mortify,English
-panacea,English
-mellifluous,English
-insidious,English
-ignominy,English
-extol,English
-fortuitous,English
-matriculate,English
-oblivion,English
-obfuscate,English
-farcical,English
-exalt,English
-erudite,English
-egalitarian,English
-inexorable,English
-inordinate,English
-lugubrious,English
-malfeasance,English
-munificent,English
-mercernary,English
-nebulous,English
-invective,English
-ostentatious,English
-pernicious,English
-predilection,English
-precipitous,English
-proponent,English
-rudimentary,English
-renounce,English
-reprehension,English
-scrupulous,English
-sanctimonious,English
-subversive,English
-trepidation,English
-tantamount,English
-unremitting,English
-vilify,English
-wistful,English
-pèsca ,Italian
-ghiaccio,Italian
-già,Italian
-scherzo ,Italian
-chiacchierare ,Italian
-segno ,Italian
-aiuto ,Italian
-lasciare ,Italian
-agnostico ,Italian
-mattina ,Italian
-stuzzicadenti ,Italian
-meraviglioso ,Italian
-fagiolini ,Italian
-promiscuità ,Italian
-cinquecentocinquantacinque ,Italian
-allora,Italian
-lucciola,Italian
-dimentico,Italian
-sfogarsi,Italian
-passeggiata,Italian
-mascalzone,Italian
-sgonfiato,Italian
-parrucchiere,Italian
-arrangiarsi,Italian
-asciugamano,Italian
-lacrima,Italian
-a fanabla,Italian
-curiosare,Italian
-sorellina,Italian
-topolino,Italian
-schifoso,Italian
-tesoro,Italian
-sticazzi,Italian
-mozzafiato,Italian
-magari,Italian
-baffona,Italian
-struggimento,Italian
-pantafolaio,Italian
-gattara,Italian
-menefreghista,Italian
-culaccino,Italian
-apericena,Italian
-aiuola,Italian
-buio,Italian
-chiacchiericcio,Italian
-iscriversi,Italian
-esagerare,Italian
-esercizio,Italian
-coinquilino,Italian
-brushcetta,Italian
-über,German
-eichhörnchen,German
-zuhören,German
-streichholzschachtel,German
-ähnlich,German
-wettbewerbsfähig,German
-überwachung,German
-umweltverschmutzung,German
-etikettierung,German
-woche ,German
-jahr ,German
-heute,German
-gestern ,German
-stunde ,German
-uhr ,German
-können ,German
-benutzen ,German
-kommen ,German
-lachen ,German
-schön ,German
-hässlich ,German
-schwierig ,German
-freut ,German
-sie ,German
-kennenzulernen,German
-wiedersehen,German
-ich bin,German
-rücken ,German
-brustkorb,German
-rindfleisch,German
-polizistin ,German
-schweinefleisch,German
-lehrerin ,German
-leiter ,German
-ingenieur,German
-angestellter,German
-krankenschwester,German
-fuß,German
-verkäufer ,German
-tschechien,German
-rührei,German
-kreuzschlitzschraubenzieher,German
-quietscheentchen,German
-röntgen,German
-schlittschuhlaufen,German
-regisseur,German
-frucht,German
-fünfhundertfünfundfünfzig,German
-brötchen,German
-streichholzschächtelchen,German
-rue,French
-yaourt,French
-l'écureuil,French
-semaine,French
-cucurbitacée,French
-pouilly-fuissé,French
-chirurgie,French
-fourrure,French
-année,French
-l'ours,French
-millefeuille,French
-l'accueil,French
-l'oeil,French
-bouteille,French
-aujourd'hui,French
-pouvoir,French
-l'eau,French
-mauvais,French
-près de,French
-pneu,French
-verrerie ,French
-serrurerie ,French
-rassasié,French
-quincaillerie ,French
-cueillir ,French
-bouilloire ,French
-accueillir ,French
-gérant ,French
-infirmière ,French
-poitrine,French
-heureuse,French
-gueule,French
-grenouille,French
-feuilleté,French
-feuille,French
-fauteuil,French
-épanouissement,French
-étang,French
-eau ,French
-ennuyer,French
-enseigner,French
-haut,French
-fait,French
-couleur,French
-doigt,French
-écureuil,French
-droit,French
-deux,French
-dessus,French
-dehors,French
-sul sul,Simlish
-chumcha,Simlish
-ongie,Simlish
-plum,Simlish
-dag dag,Simlish
-deg deg,Simlish
-sperk,Simlish
-nooboo,Simlish
-checkmar,Simlish
-om za gleb,Simlish
-vous,Simlish
-laka,Simlish
-zo hungwah,Simlish
-vens unch,Simlish
-fretishe,Simlish
-miza,Simlish
-clops,Simlish
-kik,Simlish
-mik up,Simlish
-dobbinips,Simlish
-litzergam,Simlish
-vadish,Simlish
-shooflee,Simlish
-chika,Simlish
-mik,Simlish
-mak,Simlish
-maka,Simlish
-kat,Simlish
-gerbit,Simlish
-wabadebadoo,Simlish
-zep tor maboo,Simlish
-fruby,Simlish
-nart,Simlish
-nu,Simlish
-lass,Simlish
-wub mezino,Simlish
-nubba,Simlish
-gronk,Simlish
-shurb,Simlish
-woven,Simlish
-minnai,Simlish
-dwam,Simlish
-ilana,Simlish
-jigga,Simlish
-ne,Simlish
-blow,Simlish
-it,Simlish
-yib-sim,Simlish
-woofum,Simlish
-om,Simlish
-gr,Simlish
-caba,Simlish
-wui,Simlish
-bay,Simlish
-neeba zow,Simlish
-jadosi,Simlish
-neep,Simlish
-aws,Simlish
-garsha,Simlish
-zow cay,Simlish
-zagadoo,Simlish
-oropea,Simlish
-caribea,Simlish
-posha,Simlish
-gur,Simlish
-gurn,Simlish
-ah,Simlish
-binkt,Simlish
-marf,Simlish
-apper,Simlish
-nerk,Simlish
-yibsim,Simlish
-bweb,Simlish
-stamby,Simlish
-zerpa,Simlish
-powey,Simlish
-heb,Simlish
-brich,Simlish
-docturg,Simlish
-bicoler,Simlish
-luv,Simlish
-sugnorg,Simlish
-can't,Simlish
-roli nowster,Simlish
-cul,Simlish
-gutta,Simlish
-case,Simlish
-fuens,Simlish
-roo,Simlish
-fweeka,Simlish
-foo,Simlish
-minza bar,Simlish
-really,Simlish
-va,Simlish
-fa,Simlish
-ninap,Simlish
-tinap,Simlish
-tinip,Simlish
-ka,Simlish
-hap,Simlish
-cou,Simlish
-ip,Simlish
-aw,Simlish
-nip,Simlish
-taw,Simlish
-deboo,Simlish
-arogaba,Simlish
-yibbs,Simlish
-yibbsy,Simlish
-neib,Simlish
-wut sa dib,Simlish
-abar(o),Tolkien Elvish
-aikwā,Tolkien Elvish
-khagdā¹,Tolkien Elvish
-ala-ā-mene,Tolkien Elvish
-aklari(n)kwā,Tolkien Elvish
-ambu(na),Tolkien Elvish
-at-kwet,Tolkien Elvish
-banayā,Tolkien Elvish
-delkā,Tolkien Elvish
-dankĭna,Tolkien Elvish
-dūbā,Tolkien Elvish
-(e)kwē̆,Tolkien Elvish
-ekwē,Tolkien Elvish
-erikwa,Tolkien Elvish
-et-kelē,Tolkien Elvish
-galadarembinā,Tolkien Elvish
-gōr(i)kubā,Tolkien Elvish
-gwā-ƀandina,Tolkien Elvish
-ʒandā,Tolkien Elvish
-imbi-lătă,Tolkien Elvish
-kala-kwendī,Tolkien Elvish
-kanakwe,Tolkien Elvish
-kamprū,Tolkien Elvish
-kalta,Tolkien Elvish
-lamā̆n,Tolkien Elvish
-laikwā,Tolkien Elvish
-mā-limi,Tolkien Elvish
-mbar-ndor,Tolkien Elvish
-mēlā̆-mbar,Tolkien Elvish
-morikwende,Tolkien Elvish
-ndangwetha,Tolkien Elvish
-nazgā,Tolkien Elvish
-ndilā-,Tolkien Elvish
-nēthā²,Tolkien Elvish
+-(a)lē,Tolkien Elvish
+-(a)rē,Tolkien Elvish
+-(a)sta,Tolkien Elvish
+-(i)ondo,Tolkien Elvish
+-(i)yē,Tolkien Elvish
+-(s)tā,Tolkien Elvish
+-(u)mē,Tolkien Elvish
+-ā,Tolkien Elvish
+-ā̆,Tolkien Elvish
+-ai,Tolkien Elvish
+-ayā,Tolkien Elvish
+-b(iy)ē,Tolkien Elvish
+-da,Tolkien Elvish
+-dā,Tolkien Elvish
+-i,Tolkien Elvish
+-i(n)kĭ,Tolkien Elvish
+-ī¹,Tolkien Elvish
+-ī²,Tolkien Elvish
+-iel,Tolkien Elvish
+-ikwā,Tolkien Elvish
+-il,Tolkien Elvish
+-imā,Tolkien Elvish
+-inā,Tolkien Elvish
+-ita,Tolkien Elvish
+-iti,Tolkien Elvish
+-ittā,Tolkien Elvish
 -iyē¹,Tolkien Elvish
+-iyē²,Tolkien Elvish
+-kā̆,Tolkien Elvish
+-kwā,Tolkien Elvish
+-lā,Tolkien Elvish
+-lwa,Tolkien Elvish
+-lwe,Tolkien Elvish
+-lyā,Tolkien Elvish
+-m,Tolkien Elvish
+-m(iy)ē,Tolkien Elvish
+-mā,Tolkien Elvish
+-mē̆n,Tolkien Elvish
+-na,Tolkien Elvish
+-nā,Tolkien Elvish
+-ndĭ,Tolkien Elvish
+-ndīl,Tolkien Elvish
+-ndūr,Tolkien Elvish
+-nē,Tolkien Elvish
+-nwā,Tolkien Elvish
+-ō,Tolkien Elvish
+-ō̆,Tolkien Elvish
+-r,Tolkien Elvish
+-ro,Tolkien Elvish
+-s,Tolkien Elvish
+-se-sē̆,Tolkien Elvish
+-sñe,Tolkien Elvish
+-ssē/-ssā,Tolkien Elvish
+-stā,Tolkien Elvish
+-syā,Tolkien Elvish
+-t¹,Tolkien Elvish
+-t²,Tolkien Elvish
+-ta,Tolkien Elvish
+-tă,Tolkien Elvish
+-tā,Tolkien Elvish
+-te-tē̆,Tolkien Elvish
+-ū,Tolkien Elvish
+-ubā,Tolkien Elvish
+-ū̆lā,Tolkien Elvish
+-wā,Tolkien Elvish
+-wē,Tolkien Elvish
+-ya,Tolkien Elvish
+-yă,Tolkien Elvish
+-yā,Tolkien Elvish
+-yā²,Tolkien Elvish
+(a)tata,Tolkien Elvish
+(au)be,Tolkien Elvish
+(e)kwē̆,Tolkien Elvish
+(m)belek-,Tolkien Elvish
+(n)dūrā,Tolkien Elvish
+(ñ)guruk,Tolkien Elvish
+(s)lōkō,Tolkien Elvish
+ā,Tolkien Elvish
+ā̆,Tolkien Elvish
+ab(a)sene-,Tolkien Elvish
+aba-,Tolkien Elvish
+abar(o),Tolkien Elvish
+abta,Tolkien Elvish
+ad(a),Tolkien Elvish
+ai,Tolkien Elvish
+aikwā,Tolkien Elvish
+airē,Tolkien Elvish
+airō,Tolkien Elvish
+akkal-,Tolkien Elvish
+akla-,Tolkien Elvish
+aklar(a),Tolkien Elvish
+aklāra,Tolkien Elvish
+aklari(n)kwā,Tolkien Elvish
+aktō,Tolkien Elvish
+akwā,Tolkien Elvish
+ala-ā-mene,Tolkien Elvish
+āle tuli,Tolkien Elvish
+alkwā,Tolkien Elvish
+am-,Tolkien Elvish
+am(a),Tolkien Elvish
+amal,Tolkien Elvish
+amba,Tolkien Elvish
+ambar,Tolkien Elvish
+ambō,Tolkien Elvish
+ambu(na),Tolkien Elvish
+ammat-,Tolkien Elvish
+amtā,Tolkien Elvish
+amtā-,Tolkien Elvish
+ān(a),Tolkien Elvish
+anak,Tolkien Elvish
+Anār,Tolkien Elvish
+and(ă),Tolkien Elvish
+andā,Tolkien Elvish
+angā,Tolkien Elvish
+ankā,Tolkien Elvish
+annā,Tolkien Elvish
+antā-,Tolkien Elvish
+ap-pata,Tolkien Elvish
+ap’lata,Tolkien Elvish
+ara,Tolkien Elvish
+aras(sō),Tolkien Elvish
+arātā,Tolkien Elvish
+árātō,Tolkien Elvish
+arn(a)-,Tolkien Elvish
+arphō,Tolkien Elvish
+artaurē,Tolkien Elvish
+arthā,Tolkien Elvish
+as’tāră,Tolkien Elvish
+as(a),Tolkien Elvish
+asa-,Tolkien Elvish
+áse,Tolkien Elvish
+āse tuli,Tolkien Elvish
+asmarō,Tolkien Elvish
+at-kwet,Tolkien Elvish
+ata,Tolkien Elvish
+atar,Tolkien Elvish
+atatya,Tolkien Elvish
+athmō,Tolkien Elvish
+atta,Tolkien Elvish
+au-,Tolkien Elvish
+aumat-,Tolkien Elvish
+auri,Tolkien Elvish
+aw’tha,Tolkien Elvish
+aw(a)delo,Tolkien Elvish
+awā,Tolkien Elvish
+ăwă,Tolkien Elvish
+awa-,Tolkien Elvish
+áwa-,Tolkien Elvish
+awā-da,Tolkien Elvish
+awādelo,Tolkien Elvish
+áyan,Tolkien Elvish
+ayanā,Tolkien Elvish
+aþayā,Tolkien Elvish
+aþra-,Tolkien Elvish
+bākwet-,Tolkien Elvish
+balaniā,Tolkien Elvish
+banayā,Tolkien Elvish
+bani,Tolkien Elvish
+banya,Tolkien Elvish
+Baradā,Tolkien Elvish
+barani,Tolkien Elvish
+barathī,Tolkien Elvish
+bāta-,Tolkien Elvish
+bē,Tolkien Elvish
+buzbō,Tolkien Elvish
+camta-,Tolkien Elvish
+daira,Tolkien Elvish
+dalath,Tolkien Elvish
+dankĭna,Tolkien Elvish
+dāra,Tolkien Elvish
+de,Tolkien Elvish
+dē/lē,Tolkien Elvish
+dede,Tolkien Elvish
+delkā,Tolkien Elvish
+delwa,Tolkien Elvish
+delya,Tolkien Elvish
+delya-,Tolkien Elvish
+delya-²,Tolkien Elvish
+dene,Tolkien Elvish
+dērā,Tolkien Elvish
+deulē,Tolkien Elvish
+dirnā,Tolkien Elvish
+dōmē,Tolkien Elvish
+dond(a),Tolkien Elvish
+dorno,Tolkien Elvish
+Droban-yon,Tolkien Elvish
+dūbā,Tolkien Elvish
+duinē,Tolkien Elvish
+durnu,Tolkien Elvish
+edelā,Tolkien Elvish
+edelō,Tolkien Elvish
+ekka,Tolkien Elvish
+ektā-,Tolkien Elvish
+ektel-,Tolkien Elvish
+ekwē,Tolkien Elvish
+ēl,Tolkien Elvish
+el-ā,Tolkien Elvish
+eledā,Tolkien Elvish
+elen,Tolkien Elvish
+elen-barathī,Tolkien Elvish
+elenā,Tolkien Elvish
+elwe,Tolkien Elvish
+en,Tolkien Elvish
+eñ-,Tolkien Elvish
+ened,Tolkien Elvish
+enete,Tolkien Elvish
+enkeya,Tolkien Elvish
+eñna,Tolkien Elvish
+ent,Tolkien Elvish
+epe,Tolkien Elvish
+erikwa,Tolkien Elvish
+eryā,Tolkien Elvish
+et,Tolkien Elvish
+et-kelē,Tolkien Elvish
+et-pel,Tolkien Elvish
+etkat-,Tolkien Elvish
+etkoiru-,Tolkien Elvish
+etkuinu-,Tolkien Elvish
+etlendā,Tolkien Elvish
+etlō,Tolkien Elvish
+etr-,Tolkien Elvish
+ettul-,Tolkien Elvish
+ezdē,Tolkien Elvish
+for-,Tolkien Elvish
+gaili,Tolkien Elvish
+gairā,Tolkien Elvish
+galā-,Tolkien Elvish
+galadā,Tolkien Elvish
+galadarembinā,Tolkien Elvish
+galādu,Tolkien Elvish
+galmā,Tolkien Elvish
+gampa,Tolkien Elvish
+gardā,Tolkien Elvish
+gāyā,Tolkien Elvish
+gayakā,Tolkien Elvish
+gayār,Tolkien Elvish
+gilyā,Tolkien Elvish
+glada-,Tolkien Elvish
+glaware,Tolkien Elvish
+glindā,Tolkien Elvish
+gō,Tolkien Elvish
+gollo,Tolkien Elvish
+gon-,Tolkien Elvish
+gondō,Tolkien Elvish
+gōr(i)kubā,Tolkien Elvish
+grā,Tolkien Elvish
+grauk-,Tolkien Elvish
+grawa,Tolkien Elvish
+grottā,Tolkien Elvish
+gwā-ƀandina,Tolkien Elvish
+gwa-lassiē,Tolkien Elvish
+gwendē,Tolkien Elvish
+gwenyā,Tolkien Elvish
+hek-wā,Tolkien Elvish
+heke,Tolkien Elvish
+hekelā,Tolkien Elvish
+heklanā,Tolkien Elvish
+heklō,Tolkien Elvish
+hektā,Tolkien Elvish
+hō,Tolkien Elvish
+hōmen,Tolkien Elvish
+hrā,Tolkien Elvish
+hyōba,Tolkien Elvish
+īb-,Tolkien Elvish
+ilū,Tolkien Elvish
+imbē,Tolkien Elvish
+imbi,Tolkien Elvish
+imbi-lătă,Tolkien Elvish
+imde,Tolkien Elvish
+immā,Tolkien Elvish
+immō,Tolkien Elvish
+imte,Tolkien Elvish
+indō,Tolkien Elvish
+ista-,Tolkien Elvish
+itrā,Tolkien Elvish
+k’la,Tolkien Elvish
+kā,Tolkien Elvish
+kainu-,Tolkien Elvish
+kaita-,Tolkien Elvish
+kal-,Tolkien Elvish
+kala-kwendī,Tolkien Elvish
+kalánt-,Tolkien Elvish
+kalas-,Tolkien Elvish
+kalat,Tolkien Elvish
+kalatta,Tolkien Elvish
+kalinā,Tolkien Elvish
+kalma,Tolkien Elvish
+kalta-,Tolkien Elvish
+kambā,Tolkien Elvish
+kamprū,Tolkien Elvish
+kānā,Tolkien Elvish
+kanakwe,Tolkien Elvish
+kanatā,Tolkien Elvish
+kānō,Tolkien Elvish
+kanta,Tolkien Elvish
+kantaya,Tolkien Elvish
+kar-,Tolkien Elvish
+karandi,Tolkien Elvish
+karani,Tolkien Elvish
+karijendi,Tolkien Elvish
+kārimā,Tolkien Elvish
+kas,Tolkien Elvish
+kasd(a),Tolkien Elvish
+kasma,Tolkien Elvish
+kasraya,Tolkien Elvish
+kat-,Tolkien Elvish
+katal,Tolkien Elvish
+kawa,Tolkien Elvish
+kawāk,Tolkien Elvish
+kāwāk,Tolkien Elvish
+KEG,Tolkien Elvish
+keglē,Tolkien Elvish
+kegyā,Tolkien Elvish
+kel(e)bē,Tolkien Elvish
+kelebō,Tolkien Elvish
+kelekā,Tolkien Elvish
+kelu-,Tolkien Elvish
+kelumē,Tolkien Elvish
+kelus,Tolkien Elvish
+kelutā-,Tolkien Elvish
+keme,Tolkien Elvish
+kemen,Tolkien Elvish
+kenásĭta,Tolkien Elvish
+keule,Tolkien Elvish
+keurā,Tolkien Elvish
+keu̯rānā,Tolkien Elvish
+kēwā,Tolkien Elvish
+khā,Tolkien Elvish
+khabdā,Tolkien Elvish
+khabnā,Tolkien Elvish
+khadmā,Tolkien Elvish
+khādo,Tolkien Elvish
+khagdā¹,Tolkien Elvish
+khagdā²,Tolkien Elvish
+khamu-,Tolkien Elvish
+khazd-,Tolkien Elvish
+kherī,Tolkien Elvish
+kherū,Tolkien Elvish
+kheru-,Tolkien Elvish
+kherūnī,Tolkien Elvish
+khimīti,Tolkien Elvish
+khĭn-,Tolkien Elvish
+khīnā,Tolkien Elvish
+khō̆,Tolkien Elvish
+khōgo,Tolkien Elvish
+kholjē,Tolkien Elvish
+khollō̆,Tolkien Elvish
+khōm,Tolkien Elvish
+khomlō,Tolkien Elvish
+khotta,Tolkien Elvish
+khottă,Tolkien Elvish
+khyā̆,Tolkien Elvish
+khyana,Tolkien Elvish
+khyē̆,Tolkien Elvish
+ki,Tolkien Elvish
+kirissi,Tolkien Elvish
+kirtē,Tolkien Elvish
+kiryā,Tolkien Elvish
+kiryaktō,Tolkien Elvish
+kiukā,Tolkien Elvish
+koiru-,Tolkien Elvish
+koitā-,Tolkien Elvish
+kuitā-,Tolkien Elvish
+kuldā,Tolkien Elvish
+kūma,Tolkien Elvish
+kundō,Tolkien Elvish
+kurwē,Tolkien Elvish
+kwāra,Tolkien Elvish
+kwayam,Tolkien Elvish
+kwēn,Tolkien Elvish
+kwendā,Tolkien Elvish
+kwende,Tolkien Elvish
+kwentrō,Tolkien Elvish
+kwenyā,Tolkien Elvish
+kwet-,Tolkien Elvish
+kwetnā,Tolkien Elvish
+kwinde,Tolkien Elvish
+kyaw-,Tolkien Elvish
+kyelepē,Tolkien Elvish
+kyulmā,Tolkien Elvish
+lā̆,Tolkien Elvish
+lā-,Tolkien Elvish
+lab-,Tolkien Elvish
+labdē,Tolkien Elvish
+labmā,Tolkien Elvish
+labmē,Tolkien Elvish
+laikā,Tolkien Elvish
+laikwā,Tolkien Elvish
+lairē,Tolkien Elvish
+lamā̆n(a),Tolkien Elvish
+lambā,Tolkien Elvish
+lambē,Tolkien Elvish
+lāmina,Tolkien Elvish
+langa,Tolkien Elvish
+langō,Tolkien Elvish
+lañna,Tolkien Elvish
+lasa,Tolkien Elvish
+lassē,Tolkien Elvish
+lauka,Tolkien Elvish
+lawā,Tolkien Elvish
+le,Tolkien Elvish
+lḗ tuli,Tolkien Elvish
+le tulir,Tolkien Elvish
+le(n)dembassē,Tolkien Elvish
+ledmē,Tolkien Elvish
+lednē,Tolkien Elvish
+ledya-,Tolkien Elvish
+leñwe,Tolkien Elvish
+lepe,Tolkien Elvish
+lepene,Tolkien Elvish
+lepenya,Tolkien Elvish
+leper,Tolkien Elvish
+lepero,Tolkien Elvish
+lepetā,Tolkien Elvish
+lepethron,Tolkien Elvish
+lĭmbĭ,Tolkien Elvish
+limi,Tolkien Elvish
+lindā,Tolkien Elvish
+linde,Tolkien Elvish
+liru-,Tolkien Elvish
+lissĭ-,Tolkien Elvish
+lisyā,Tolkien Elvish
+lō¹,Tolkien Elvish
+lō²,Tolkien Elvish
+loga,Tolkien Elvish
+logna,Tolkien Elvish
+lossē,Tolkien Elvish
+lossĭ,Tolkien Elvish
+loth,Tolkien Elvish
+lotho/a,Tolkien Elvish
+lotse,Tolkien Elvish
+lotta-,Tolkien Elvish
+lū,Tolkien Elvish
+lubbu,Tolkien Elvish
+lugni,Tolkien Elvish
+luini,Tolkien Elvish
+lukma,Tolkien Elvish
+lungu,Tolkien Elvish
+luʒu,Tolkien Elvish
+mā,Tolkien Elvish
+mā-limi,Tolkien Elvish
+magiti,Tolkien Elvish
+magrā,Tolkien Elvish
+magtā-,Tolkien Elvish
+maha,Tolkien Elvish
+mahsi,Tolkien Elvish
+mai,Tolkien Elvish
+maikā¹,Tolkien Elvish
+maikā²,Tolkien Elvish
+mailiki,Tolkien Elvish
+māīta,Tolkien Elvish
+maita-,Tolkien Elvish
+makla,Tolkien Elvish
+makwā,Tolkien Elvish
+malnā,Tolkien Elvish
+malu,Tolkien Elvish
+māmā,Tolkien Elvish
+mammata-,Tolkien Elvish
+manrā,Tolkien Elvish
+maslā,Tolkien Elvish
+masta-,Tolkien Elvish
+mat-,Tolkien Elvish
+matnā,Tolkien Elvish
+matˢtimā,Tolkien Elvish
+matulā,Tolkien Elvish
+matwā,Tolkien Elvish
+matyā-,Tolkien Elvish
+Māya,Tolkien Elvish
+mazgā,Tolkien Elvish
+mazgō,Tolkien Elvish
+maʒsē,Tolkien Elvish
+mbā,Tolkien Elvish
+mbandō,Tolkien Elvish
+ṃbar,Tolkien Elvish
+mbar-,Tolkien Elvish
+mbar-ndor,Tolkien Elvish
+mbar(ă),Tolkien Elvish
+mbard(a),Tolkien Elvish
+mbardā,Tolkien Elvish
+ṃbart(ă),Tolkien Elvish
+mbartā,Tolkien Elvish
+mbassē,Tolkien Elvish
+mbasta,Tolkien Elvish
+mbazdā,Tolkien Elvish
+ṃbono,Tolkien Elvish
+me,Tolkien Elvish
+mē̆,Tolkien Elvish
+meinā,Tolkien Elvish
+melā-,Tolkien Elvish
+mēlā̆-mbar,Tolkien Elvish
+melnā,Tolkien Elvish
+mēn-,Tolkien Elvish
+menel,Tolkien Elvish
+mī,Tolkien Elvish
+mikrā,Tolkien Elvish
+min,Tolkien Elvish
+min(i)kewē̆,Tolkien Elvish
+mīni,Tolkien Elvish
+minya,Tolkien Elvish
+mīrĭ,Tolkien Elvish
+miru̯(a)-wōrĭ,Tolkien Elvish
+mizdē,Tolkien Elvish
+mō,Tolkien Elvish
+moina,Tolkien Elvish
+mōja-,Tolkien Elvish
+mōl,Tolkien Elvish
+mor(o)kē,Tolkien Elvish
+mori,Tolkien Elvish
+morikwende,Tolkien Elvish
+mornā,Tolkien Elvish
+morokō,Tolkien Elvish
+n-uĕg,Tolkien Elvish
+n(g)ā,Tolkien Elvish
+ñ(g)alatā,Tolkien Elvish
+nābā,Tolkien Elvish
+naikē,Tolkien Elvish
+najak,Tolkien Elvish
+najakō,Tolkien Elvish
+ñaldā,Tolkien Elvish
+nanmen-,Tolkien Elvish
+nāpa,Tolkien Elvish
+nāro,Tolkien Elvish
+năta,Tolkien Elvish
+nathlo,Tolkien Elvish
+naukā,Tolkien Elvish
+nazgā,Tolkien Elvish
+nazgwē,Tolkien Elvish
+ndagwē,Tolkien Elvish
+ndakna,Tolkien Elvish
+ndakta-,Tolkien Elvish
+ndan-,Tolkien Elvish
+ndandō,Tolkien Elvish
+ndangwetha,Tolkien Elvish
+ndanmē,Tolkien Elvish
+ndē̆r,Tolkien Elvish
+ndī,Tolkien Elvish
+ndilā-,Tolkien Elvish
+ndīlī,Tolkien Elvish
+ndī̆s,Tolkien Elvish
+ndorē,Tolkien Elvish
+ndōro,Tolkien Elvish
+ṇdūnē,Tolkien Elvish
+ndūtā-,Tolkien Elvish
+ndūya-,Tolkien Elvish
+nē,Tolkien Elvish
+nebā,Tolkien Elvish
+negdē,Tolkien Elvish
+neila,Tolkien Elvish
+nektē,Tolkien Elvish
+nelede,Tolkien Elvish
+nelekwe,Tolkien Elvish
+nelkwăya,Tolkien Elvish
+nē̆n,Tolkien Elvish
+nēnā,Tolkien Elvish
+nenda,Tolkien Elvish
+nēr,Tolkien Elvish
+nerteya,Tolkien Elvish
+nes-,Tolkien Elvish
+nesī/nese,Tolkien Elvish
+neter(e),Tolkien Elvish
+nēthā¹,Tolkien Elvish
+nēthā²,Tolkien Elvish
+nethē,Tolkien Elvish
+netthi,Tolkien Elvish
+ñgaurijē,Tolkien Elvish
+ñgawar,Tolkien Elvish
+ñgillē,Tolkien Elvish
+ñgōlē,Tolkien Elvish
+ñgolodō,Tolkien Elvish
+ñgormē,Tolkien Elvish
+ñgornā,Tolkien Elvish
+ñgothō,Tolkien Elvish
+ñgur,Tolkien Elvish
+ñgurijē,Tolkien Elvish
+ñgurū,Tolkien Elvish
+ñgwar-,Tolkien Elvish
+ñgwaumē,Tolkien Elvish
+ñgwaurō,Tolkien Elvish
+ñgyar-,Tolkien Elvish
+ṇ̃gyellē,Tolkien Elvish
+ni,Tolkien Elvish
+niktil,Tolkien Elvish
+nimpĭ,Tolkien Elvish
+ninkĭ,Tolkien Elvish
+ninkwi,Tolkien Elvish
+ninkwiraite,Tolkien Elvish
+ninkwis-,Tolkien Elvish
+ninkwita-,Tolkien Elvish
+ninkwitā-,Tolkien Elvish
+nīs,Tolkien Elvish
+nki,Tolkien Elvish
+ṇ̃kwalē,Tolkien Elvish
+nō,Tolkien Elvish
+nōrē,Tolkien Elvish
+nōse,Tolkien Elvish
+notmē,Tolkien Elvish
+nōto,Tolkien Elvish
+nukotto,Tolkien Elvish
+nuktā-,Tolkien Elvish
+numē-n,Tolkien Elvish
+ñwa-lōth,Tolkien Elvish
+ñwe,Tolkien Elvish
+oio,Tolkien Elvish
+okhor,Tolkien Elvish
+oklā,Tolkien Elvish
+okma,Tolkien Elvish
+oktā,Tolkien Elvish
+olā-,Tolkien Elvish
+ōma,Tolkien Elvish
+omen-,Tolkien Elvish
 ontarō,Tolkien Elvish
+ōre,Tolkien Elvish
+orlā,Tolkien Elvish
+ornā,Tolkien Elvish
+ornē,Tolkien Elvish
+orta-,Tolkien Elvish
+ortā-,Tolkien Elvish
+orya-,Tolkien Elvish
+ostō,Tolkien Elvish
+otoso,Tolkien Elvish
+otsōyā,Tolkien Elvish
+ówō,Tolkien Elvish
+oþlō,Tolkien Elvish
+pal’tā,Tolkien Elvish
+palad,Tolkien Elvish
+palantīrā̆,Tolkien Elvish
+palátā,Tolkien Elvish
+palda,Tolkien Elvish
+palnā,Tolkien Elvish
+panda,Tolkien Elvish
+paran,Tolkien Elvish
+pat(a),Tolkien Elvish
+pathnā,Tolkien Elvish
+peles,Tolkien Elvish
+peles-,Tolkien Elvish
+pelo,Tolkien Elvish
+pelola,Tolkien Elvish
+peltakse,Tolkien Elvish
+peñ,Tolkien Elvish
+pendā,Tolkien Elvish
+pē̆pe,Tolkien Elvish
+phā,Tolkien Elvish
+phairē,Tolkien Elvish
+phanā,Tolkien Elvish
+phanmā,Tolkien Elvish
+phantā-,Tolkien Elvish
+phanyā,Tolkien Elvish
+pharalē,Tolkien Elvish
+pharne,Tolkien Elvish
+phawa,Tolkien Elvish
 phawalōkō,Tolkien Elvish
+phāy,Tolkien Elvish
+phayā,Tolkien Elvish
+phelgā,Tolkien Elvish
+pheryā,Tolkien Elvish
+philinki,Tolkien Elvish
+phindē,Tolkien Elvish
+phini-,Tolkien Elvish
+phinik,Tolkien Elvish
+phū,Tolkien Elvish
+phuinē,Tolkien Elvish
+pī,Tolkien Elvish
+poli,Tolkien Elvish
+pollō,Tolkien Elvish
+porokē,Tolkien Elvish
+poroki,Tolkien Elvish
+pū,Tolkien Elvish
+r/l-iĕl,Tolkien Elvish
+ra-,Tolkien Elvish
+rai,Tolkien Elvish
+raika,Tolkien Elvish
+raitē,Tolkien Elvish
+raph-,Tolkien Elvish
+rass,Tolkien Elvish
+rāta,Tolkien Elvish
+raukō,Tolkien Elvish
+raurō,Tolkien Elvish
+rāw,Tolkien Elvish
+rē,Tolkien Elvish
+reddā,Tolkien Elvish
+rekti(e),Tolkien Elvish
+rembinā,Tolkien Elvish
+rēnē,Tolkien Elvish
+rīgā,Tolkien Elvish
+rigelle,Tolkien Elvish
+riknā,Tolkien Elvish
+rindi,Tolkien Elvish
+ringā,Tolkien Elvish
+ringi,Tolkien Elvish
+rinsa,Tolkien Elvish
+rinse,Tolkien Elvish
+rista,Tolkien Elvish
+roban,Tolkien Elvish
+rokkē,Tolkien Elvish
+rokkō,Tolkien Elvish
 rokokwēn,Tolkien Elvish
+rondō,Tolkien Elvish
+roññā-,Tolkien Elvish
+roño,Tolkien Elvish
+rossē,Tolkien Elvish
+russā,Tolkien Elvish
+sa,Tolkien Elvish
+sagrā,Tolkien Elvish
+san-,Tolkien Elvish
+sanā,Tolkien Elvish
+sanwē,Tolkien Elvish
+sapnā,Tolkien Elvish
+sará,Tolkien Elvish
+sarniye,Tolkien Elvish
+satarŏ,Tolkien Elvish
+satrā,Tolkien Elvish
+satya-,Tolkien Elvish
+sawā,Tolkien Elvish
+se,Tolkien Elvish
+sē,Tolkien Elvish
+sē tuli,Tolkien Elvish
+sedu-,Tolkien Elvish
+sī,Tolkien Elvish
+sidā̆,Tolkien Elvish
+silimā,Tolkien Elvish
+silki,Tolkien Elvish
+sĭnā,Tolkien Elvish
+sinki,Tolkien Elvish
+sinkitamo,Tolkien Elvish
+sīru,Tolkien Elvish
+siru-,Tolkien Elvish
+sirya-,Tolkien Elvish
+sisilla-,Tolkien Elvish
+skā,Tolkien Elvish
+skalā,Tolkien Elvish
+skorā-,Tolkien Elvish
+skū,Tolkien Elvish
+slas,Tolkien Elvish
+slowā,Tolkien Elvish
+smalu,Tolkien Elvish
+sminu,Tolkien Elvish
+snagdē,Tolkien Elvish
+soglā,Tolkien Elvish
+spanā,Tolkien Elvish
+sparā-,Tolkien Elvish
+spindē,Tolkien Elvish
+spindilā,Tolkien Elvish
+spini-,Tolkien Elvish
+srā,Tolkien Elvish
 srāban,Tolkien Elvish
+Srāban-yānā,Tolkien Elvish
+srawā,Tolkien Elvish
+srāwe,Tolkien Elvish
+stama-,Tolkien Elvish
+steglō,Tolkien Elvish
+stenna,Tolkien Elvish
+stīrē,Tolkien Elvish
+stona,Tolkien Elvish
 stuknā,Tolkien Elvish
+sū,Tolkien Elvish
+sūli,Tolkien Elvish
+sūri,Tolkien Elvish
+syadnā,Tolkien Elvish
+syandā,Tolkien Elvish
+ta,Tolkien Elvish
+tad(a),Tolkien Elvish
+tagra,Tolkien Elvish
+taika,Tolkien Elvish
+takala,Tolkien Elvish
+takse,Tolkien Elvish
+tāl,Tolkien Elvish
+talam,Tolkien Elvish
+talat-,Tolkien Elvish
+tald(a),Tolkien Elvish
+talmā,Tolkien Elvish
+taltā,Tolkien Elvish
+taltas-,Tolkien Elvish
+taman-,Tolkien Elvish
+tamō,Tolkien Elvish
+tandā,Tolkien Elvish
+tankā,Tolkien Elvish
+tankas-,Tolkien Elvish
+tankatā-,Tolkien Elvish
+tankla,Tolkien Elvish
+tanma,Tolkien Elvish
+tāra,Tolkien Elvish
+tārī,Tolkien Elvish
+tassā,Tolkien Elvish
 tatakwe,Tolkien Elvish
+tatalat-,Tolkien Elvish
+tathari,Tolkien Elvish
+taurē,Tolkien Elvish
+tawinā,Tolkien Elvish
+te,Tolkien Elvish
+tegē,Tolkien Elvish
+tegmā,Tolkien Elvish
+tekma,Tolkien Elvish
+tekmā,Tolkien Elvish
+tekmē,Tolkien Elvish
+teknā,Tolkien Elvish
+tekta,Tolkien Elvish
+tektā,Tolkien Elvish
+teleryā,Tolkien Elvish
+telet-,Tolkien Elvish
+telu-,Tolkien Elvish
+teñwā,Tolkien Elvish
+teñwe,Tolkien Elvish
+teswā,Tolkien Elvish
+tete,Tolkien Elvish
+thā,Tolkien Elvish
+thakta-,Tolkien Elvish
+thandā,Tolkien Elvish
+thara-pata,Tolkien Elvish
+thara¹,Tolkien Elvish
+thara²,Tolkien Elvish
+thillu-,Tolkien Elvish
+thindā,Tolkien Elvish
+thindi,Tolkien Elvish
+thorono,Tolkien Elvish
+thowō,Tolkien Elvish
 thū́lē,Tolkien Elvish
+thūsē,Tolkien Elvish
+tilte,Tolkien Elvish
+tini,Tolkien Elvish
 tirlā,Tolkien Elvish
+tithilla-,Tolkien Elvish
+tolbā,Tolkien Elvish
+tollă,Tolkien Elvish
+toltoya,Tolkien Elvish
+tolu-,Tolkien Elvish
+tolya,Tolkien Elvish
+towo,Tolkien Elvish
+tuilu-,Tolkien Elvish
+tul-,Tolkien Elvish
+tuli lḗ,Tolkien Elvish
+tuli sḗ,Tolkien Elvish
+tulku,Tolkien Elvish
+tultā-,Tolkien Elvish
+tulyā-,Tolkien Elvish
+turū,Tolkien Elvish
+turuk,Tolkien Elvish
 turunko,Tolkien Elvish
+ū,Tolkien Elvish
+uba-,Tolkien Elvish
 ubmē,Tolkien Elvish
+ugrā,Tolkien Elvish
+ugu-,Tolkien Elvish
 uklā,Tolkien Elvish
+ul-,Tolkien Elvish
+ulka,Tolkien Elvish
+ūopa,Tolkien Elvish
+ūr,Tolkien Elvish
+urkā,Tolkien Elvish
+urku/urkō,Tolkien Elvish
+us(u)kwē,Tolkien Elvish
+verī,Tolkien Elvish
 verū,Tolkien Elvish
+wa-,Tolkien Elvish
+wā-,Tolkien Elvish
+wā(w),Tolkien Elvish
 wādelo,Tolkien Elvish
+wagme,Tolkien Elvish
+waile,Tolkien Elvish
+waiwa(y),Tolkien Elvish
+walka,Tolkien Elvish
+walna,Tolkien Elvish
+wanjā,Tolkien Elvish
+wanwa,Tolkien Elvish
+wanya,Tolkien Elvish
+wath,Tolkien Elvish
+wāwā,Tolkien Elvish
+wāya,Tolkien Elvish
+we,Tolkien Elvish
+wegō,Tolkien Elvish
+wegō(n),Tolkien Elvish
 wegtē,Tolkien Elvish
+wini,Tolkien Elvish
+wō,Tolkien Elvish
+wonā,Tolkien Elvish
+wōri,Tolkien Elvish
+wwe,Tolkien Elvish
+yagā,Tolkien Elvish
 yānā,Tolkien Elvish
+yandē,Tolkien Elvish
+yarr-,Tolkien Elvish
+yat,Tolkien Elvish
+yenā,Tolkien Elvish
+yō,Tolkien Elvish
+yondō,Tolkien Elvish
+yŭ,Tolkien Elvish
+yuldā,Tolkien Elvish
+yulmā,Tolkien Elvish
+yulmē,Tolkien Elvish
+yūnekē,Tolkien Elvish
 yuyuñal,Tolkien Elvish
+ʒandā,Tolkien Elvish
+ʒō,Tolkien Elvish
+ʒorē,Tolkien Elvish
