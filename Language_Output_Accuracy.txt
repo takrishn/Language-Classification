@@ -1,8 +1,10 @@
 Accuracy (# times correct):
 
+[Run without stopwords]
+
 English - 3/10, mostly mistaken for French
 Spanish - 1/10, mistaken for Italian other times
-German - 7/10, mistaken for Spanish, French and English
+German - 7/10, mistaken for Spanish, French, and English
 Italian - 8/10, mistaken for French and Elvish
 French - 8/10, mistaken for English and Italian
 -------------
@@ -11,3 +13,15 @@ Simlish - 1/10, mistaken for every other language
 Elvish - 6/10, mistaken for German and English
 	According to wikipedia, based on Finnish, Latin, Greek, German, and Welsh
 
+=============================
+
+[Run with stopwords]
+English - 6/10, mostly mistaken for French
+Spanish - 4/10, mistaken for Italian
+German - 7/10, mistaken for Spanish, French, and English
+Italian - 5/10
+French - 9/10, mistaken for German
+------------
+Simlish - 0
+	Stopwords are short, and many Simlish words are short.
+Elvish - 8/10, mistaken for English
