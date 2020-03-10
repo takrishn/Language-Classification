@@ -3,12 +3,12 @@ Accuracy (# times correct):
 [Run without stopwords]
 
 English - 3/10, mostly mistaken for French
-Spanish - 1/10, mistaken for Italian other times
-German - 7/10, mistaken for Spanish, French, and English
-Italian - 8/10, mistaken for French and Elvish
+Spanish - 0/10, mistaken for Italian 10/10 times
+German - 6/10, mistaken for Spanish, French, and English
+Italian - 8/10, mistaken for English and Spanish
 French - 8/10, mistaken for English and Italian
 -------------
-Simlish - 1/10, mistaken for every other language
+Simlish - 0/10, mistaken for every other language
 	Simlish is created based on real life languages
 Elvish - 6/10, mistaken for German and English
 	According to wikipedia, based on Finnish, Latin, Greek, German, and Welsh
@@ -17,11 +17,23 @@ Elvish - 6/10, mistaken for German and English
 
 [Run with stopwords]
 English - 6/10, mostly mistaken for French
-Spanish - 4/10, mistaken for Italian
-German - 7/10, mistaken for Spanish, French, and English
-Italian - 5/10
+Spanish - 5/10, mistaken for Italian
+German - 7/10, mistaken for Spanish, French, and English #5
+Italian - 6/10, mostly mistaken with Spanish
 French - 9/10, mistaken for German
 ------------
-Simlish - 0
+Simlish - 1/10
 	Stopwords are short, and many Simlish words are short.
-Elvish - 8/10, mistaken for English
+Elvish - 9/10, mistaken for German
+
+[Difficult Set]
+English - 4/10, mostly mistaken for French and Spanish
+Spanish - 5/10, mistaken for Italian
+German - 5/10, mistaken for Spanish, French, and English
+Italian - 5/10, mostly mistaken with Spanish
+French - 5/10, mistaken for English
+------------
+Simlish - 0/10
+	Stopwords are short, and many Simlish words are short.
+Elvish - 6/10
+	mistaken for German, very high probabilities like .9+ when it correctly identify Tokien Elvish
