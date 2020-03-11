@@ -135,7 +135,7 @@ class CNN():
         self.model.compile(optimizer=optimizer, loss=loss)
         self.model.summary()
 
-        self.model.fit(train_data, train_classes, validation_data=(test_data, test_classes), batch_size=128, epochs=10, verbose=2)
+        self.model.fit(train_data, train_classes, validation_data=(test_data, test_classes), batch_size=128, epochs=5, verbose=2)
 
     def predict(self, filename): #used to be false
         x  = parseCSV_testing(filename)  
@@ -155,8 +155,8 @@ class CNN():
 
 def main():
     # train_data_source = 'language_dataset.csv'
-    # train_data_source = 'language_dataset_with_stopwords.csv'
-    train_data_source = 'Difficult_Set.csv'
+    train_data_source = 'language_dataset_with_stopwords.csv'
+    # train_data_source = 'Difficult_Set.csv'
     test_data_source = 'test_data_v1.csv'
     cnn = CNN(train_data_source, test_data_source)    
     cnn.predict(test_data_source)

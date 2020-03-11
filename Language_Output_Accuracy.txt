@@ -12,9 +12,7 @@ Simlish - 0/10, mistaken for every other language
 	Simlish is created based on real life languages
 Elvish - 6/10, mistaken for German and English
 	According to wikipedia, based on Finnish, Latin, Greek, German, and Welsh
-
 =============================
-
 [Run with stopwords]
 English - 6/10, mostly mistaken for French
 Spanish - 5/10, mistaken for Italian
@@ -25,7 +23,7 @@ French - 9/10, mistaken for German
 Simlish - 1/10
 	Stopwords are short, and many Simlish words are short.
 Elvish - 9/10, mistaken for German
-
+=============================
 [Difficult Set]
 English - 4/10, mostly mistaken for French and Spanish
 Spanish - 5/10, mistaken for Italian
